@@ -4,6 +4,15 @@
     max-height: 500px;
 }
 
+.carousel-img {
+    width: 1440px;
+    height: 714px;
+    top: 146.24px;
+    left: 0.31px;
+    object-fit: cover;
+    max-height: 500px; /* Optional: To limit the height if needed */
+}
+
 /* Media query for screens smaller than 768px (adjust as needed) */
 @media (max-width: 767px) {
     .carousel-inner img {

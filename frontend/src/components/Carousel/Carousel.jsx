@@ -33,19 +33,13 @@ const Carousel = () => {
                             src={Carousel1}
                             className="d-block w-100"
                             alt="First slide"
-                            style={{
-                                width: '1440px',
-                                height: '714px',
-                                top: '146.24px',
-                                left: '0.31px',
-                                objectFit: 'cover',
-                                maxHeight: '500px', // Optional: To limit the height if needed
-                            }}
+                            
                         />
 
-                        <div className="carousel-caption d-none d-md-block">
+                        <div className="carousel-caption d-none d-md-block " >
+
                             <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <p className=''>Some representative placeholder content for the first slide.lorem lo</p>
                         </div>
                     </div>
                     <div className="carousel-item">

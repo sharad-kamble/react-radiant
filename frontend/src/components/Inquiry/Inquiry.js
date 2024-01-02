@@ -63,7 +63,7 @@ const Inquiry = () => {
                                     </div>
 
                                     <div className="mb-3">
-                                        <label htmlFor="formDropdown" className="form-label text-start">Services -</label>
+                                        <label htmlFor="formDropdown" className="form-label text-start">Looking For -</label>
                                         <select className="form-select" id="formDropdown">
                                             <option value="1">Select</option>
                                             <option value="1">Software development</option>

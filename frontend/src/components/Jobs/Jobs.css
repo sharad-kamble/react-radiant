@@ -119,8 +119,8 @@
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  }
-  
+}
+
 
 .radianttitle {
     font-size: 30px;
@@ -131,9 +131,9 @@
 @media (max-width: 767px) {
     .cardradiant {
         height: auto;
-        
-       
-        
+
+
+
     }
 
     .radianttitle {
@@ -142,7 +142,19 @@
         margin: 65px 0;
         /* Adjust the margin for smaller screens */
         /* margin-bottom: 500px; */
-      
+
     }
     
+
 }
+
+@media (max-width: 767px) {
+    .col-md-4 {
+      width: 90%; 
+      margin: auto;/* Each card takes the full width on smaller screens */
+    }
+    .cardradiant{
+        width: 90%; 
+        margin: auto;
+    }
+  }

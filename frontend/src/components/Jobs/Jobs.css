@@ -1,0 +1,148 @@
+.joborientedText {
+    color: #025978;
+    margin: 40px;
+}
+
+.commonCardContent {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.jobrowcard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jobCard {
+
+    text-align: left;
+    border: 1px solid #fff;
+    /* border-radius: 35px; */
+    height: 300px;
+    width: 300px;
+    /* background-color:  #D0F1F4; */
+
+
+}
+
+.rowCardImgTop {
+    height: 200px;
+    margin-top: 2px;
+    width: 100%;
+    /* border: 0.5px solid  #D0F1F4; */
+    /* border-radius: 32px 32px 0px 0px; */
+
+}
+
+.cardBody {
+    background-color: #D0F1F4;
+    /* border: 1px solid #fff; */
+    /* border-radius: 0px 0px 35px 35px; */
+}
+
+/* .jobCardBody {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.jobCardTitle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* .jobCardText {
+    font-size: 1rem;
+    margin-bottom: 10px;
+} */
+.viewDetailBtn {
+    border: 1px solid #D0F1F4;
+    border-radius: 35px;
+    Height: 40px;
+    width: 200px;
+    background-color: #025978;
+    color: #fff;
+    justify-content: center;
+}
+
+.viewDetailBtn:hover {
+    background-color: #fff;
+    border: 1px solid #025978;
+    color: #025978;
+}
+
+.jobCard:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blueCard {
+    text-align: center;
+    border: 1px solid #35C1D5;
+    border-radius: 35px;
+    height: 500px;
+    background-color: #35C1D5;
+}
+
+.jobCardparagragh {
+    margin-top: 20%;
+    margin-bottom: 40%;
+    font-size: 30px;
+}
+
+.customJobMargin {
+    margin-left: 50px;
+}
+
+@media (max-width: 767px) {
+    .customJobMargin {
+        margin: 0;
+    }
+
+    .blueCard {
+        /* width: 100%;  */
+        padding: 20px;
+        height: 270px;
+        border-radius: 0;
+    }
+
+    .jobCardparagragh {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+
+.radianttitle {
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 130px 0;
+}
+
+@media (max-width: 767px) {
+    .cardradiant {
+        height: auto;
+        
+       
+        
+    }
+
+    .radianttitle {
+        font-size: 30px;
+        /* Adjust the font size for smaller screens */
+        margin: 65px 0;
+        /* Adjust the margin for smaller screens */
+        /* margin-bottom: 500px; */
+      
+    }
+    
+}

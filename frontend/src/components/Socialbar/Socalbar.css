@@ -1,0 +1,27 @@
+.header {
+    background: #D0F1F4;
+  }
+  
+  .facebook-icon {
+    color: #3b5998;
+  }
+  
+  .whatsapp-icon {
+    color: #25d366;
+  }
+  
+  .instagram-icon {
+    color: #c13584;
+  }
+  
+  .linkedin-icon {
+    color: #0077b5;
+  }
+  
+  .facebook-icon:hover,
+  .whatsapp-icon:hover,
+  .linkedin-icon:hover,
+  .instagram-icon:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+  }

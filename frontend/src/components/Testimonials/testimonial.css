@@ -1,0 +1,194 @@
+.tetsmocontainer {
+    background-color: #ECFDFF;
+    padding-bottom: 50px;
+}
+
+.tstmoHead {
+    color: #35C1D5;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.row .tstmopara {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.tsth6 {
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.tstmoBtn {
+    width: 253.92px;
+    height: 40px;
+    border: 1px solid #025978;
+    border-radius: 100px;
+    background-color: #025978;
+    color: #fff;
+    margin-top: 15px;
+    padding: 5px;
+
+}
+
+.tstmoBtn:hover {
+    background-color: #fff;
+    color: #025978;
+}
+
+
+.tstmoCarousel {
+    margin-top: 50px;
+    padding: auto;
+}
+
+/* .carouselEmpDiv{
+    flex: 1;
+    background-color: #025978;
+    height: 410px;
+    width: 50px; 
+} */
+
+
+.carouselContent {
+
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.placementNews {
+    color: #025978;
+}
+
+.plmntCrousel {
+    /* width: 750px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subscribeCard {
+
+    background-color: #025978;
+    color: #fff;
+    height: 300px;
+    border-radius: 35px;
+}
+
+.subscribe {
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscribe>p {
+    margin-top: 60px;
+    white-space: pre-line;
+}
+
+.inputGrp {
+    width: 500px !important;
+}
+
+
+.subcribeInp {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #D0F1F4;
+}
+
+.subscribeBtn {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 100px;
+    height: 38px;
+    background-color: #35C1D5;
+    border: none;
+    color: #fff;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .tetsmocontainer .tstimg {
+        display: none !important;
+    }
+
+    .tstmoHead {
+        margin-right: 60px;
+    }
+
+    .tstmoContainer .tstspan {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-weight: 800;
+        text-align: center !important;
+    }
+
+    .tstmoHead {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .row .tstmopara {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    .tsth6 {
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .tstmoBtn {
+        width: 100%;
+    }
+
+    .tstmoCarousel {
+        margin-top: 30px;
+    }
+
+    .plmntCrousel {
+        height: auto;
+        width: auto;
+        /* padding: 5px; */
+    }
+
+    .inputGrp {
+        width: 250px !important;
+    }
+
+    .subscribe .inputGrp {
+        margin-bottom: 0px;
+    }
+
+    .subcribeInp {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .subscribeBtn {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .placementNews {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .tstmoCarousel{
+        height: auto;
+        width: auto;
+        overflow: hidden;
+    }
+
+    
+}
+

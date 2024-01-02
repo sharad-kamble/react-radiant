@@ -1,0 +1,56 @@
+.readmore {
+    width: 200px;
+    height: 50px;
+    border-radius: 90px;
+    border: 1px;
+    background-color: #025978;
+    color: white;
+    padding: 5px;
+
+}
+.boyimg {
+    
+    background-size: cover; /* Ensure the background image covers the full width */
+    background-position: center; /* Center the background image */
+    height: 550px;
+    
+    
+    color: #000000;
+}
+
+.readmore:hover {
+    background-color: #fff;
+    border: 1px solid #025978;
+    color: #000;
+}
+
+
+@media (max-width: 767px) {
+    .img1 {
+        height: auto;
+        /* Adjust the height as needed for mobile devices */
+        width: 100%;
+        /* Make the image responsive within its container */
+
+    }
+
+    /* .abt{
+        display: none;
+    } */
+
+    .img1 {
+        display: none;
+    }
+
+
+
+    .readmore {
+        margin-left: 85px; /* Set the margin for larger screens */
+
+    /* Center the button in mobile responsive views */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   
+    }
+}

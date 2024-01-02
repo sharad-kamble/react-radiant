@@ -1,0 +1,48 @@
+/* Media query for mobile view */
+@media (max-width: 767px) {
+    .navbar-nav {
+        /* Set flex direction to column for mobile view */
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        /* Reset margin for each nav item in mobile view */
+        margin-right: 0;
+    }
+
+    .navbar-nav .dropdown {
+        /* Adjust margin for dropdown in mobile view */
+        margin-bottom: 8px;
+    }
+
+    .ms-auto {
+        /* Move the search form to the left in mobile view */
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+
+.nav-link{
+    color: #000000;
+}
+
+.nav-link:hover{
+    color: #4adbe8;;
+}
+
+/* .navbar-nav .nav-link {
+    text-transform: uppercase;
+} */
+
+.navbar {
+    transition: background-color 0.3s ease, padding 0.3s ease; 
+}
+
+.fixed-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffff; 
+}

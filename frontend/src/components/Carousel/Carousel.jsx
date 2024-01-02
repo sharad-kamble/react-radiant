@@ -37,7 +37,6 @@ const Carousel = () => {
                         />
 
                         <div className="carousel-caption d-none d-md-block " >
-
                             <h5>First slide label</h5>
                             <p className=''>Some representative placeholder content for the first slide.lorem lo</p>
                         </div>

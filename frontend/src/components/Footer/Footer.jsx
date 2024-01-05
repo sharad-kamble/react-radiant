@@ -1,108 +1,72 @@
-import React from 'react'
-
+import React from 'react';
+import radiantLogo from '../../assets/images/logo.png';
+import { FaFacebook, FaWhatsapp, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <footer className="pt-4 my-md-5 pt-md-5 border-top">
-            <div className="row">
-                <div className="col-12 col-md">
-                    <img
-                        className="mb-2"
-                        src="/docs/5.3/assets/brand/bootstrap-logo.svg"
-                        alt=""
-                        width={24}
-                        height={19}
-                    />
-                    <small className="d-block mb-3 text-body-secondary">© 2017–2023</small>
-                </div>
-                <div className="col-6 col-md">
-                    <h5>Features</h5>
-                    <ul className="list-unstyled text-small">
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Cool stuff
-                            </a>
-                        </li>
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Random feature
-                            </a>
-                        </li>
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Team feature
-                            </a>
-                        </li>
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Stuff for developers
-                            </a>
-                        </li>
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Another one
-                            </a>
-                        </li>
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Last time
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div className="col-6 col-md">
-                    <h5>Resources</h5>
-                    <ul className="list-unstyled text-small">
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Resource
-                            </a>
-                        </li>
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Resource name
-                            </a>
-                        </li>
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Another resource
-                            </a>
-                        </li>
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Final resource
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div className="col-6 col-md">
-                    <h5>About</h5>
-                    <ul className="list-unstyled text-small">
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Team
-                            </a>
-                        </li>
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Locations
-                            </a>
-                        </li>
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Privacy
-                            </a>
-                        </li>
-                        <li className="mb-1">
-                            <a className="link-secondary text-decoration-none" href="#">
-                                Terms
-                            </a>
-                        </li>
-                    </ul>
+        <div>
+            <div className='container mt-5 pb-5'>
+                <div className='row'>
+                    <div className='col-md-3'>
+                        <img src={radiantLogo} style={{ maxHeight: "80px", width: "200px" }}/>
+                        <header className="d-flex justify-content-start  py-5 container">
+                            <FaFacebook size={25} className="mx-2 facebook-icon" />
+                            <FaWhatsapp size={25} className="mx-2 whatsapp-icon" />
+                            <FaLinkedin size={25} className="mx-2 linkedin-icon" />
+                            <FaInstagram size={25} className="mx-2 mr-3 instagram-icon" />
+
+                        </header>
+                        <p className='my-2'>Embark on a journey of continuous learning with
+                            Radiant, where knowledge meets opportunity.
+                            Dive into a world of skill building courses curated
+                            for success in the digital age. Elevate your
+                            expertise, advance your career and embrace a
+                            future filled with endless possibilities.
+                        </p>
+                    </div>
+
+                    <div className='col-md-3 mt-3 moreFooter'>
+                        <h3>Courses</h3>
+                        <div className='footerCourses textCourse'>
+                            <p><Link to="/">Data Science</Link></p>
+                            <p><Link to="/">Full Stack Java Development</Link></p>
+                            <p><Link to="/">Web Development</Link></p>
+                            <p><Link to="/">Power BI</Link></p>
+                            <p><Link to="/">UI/ UX Design</Link></p>
+                            <p><Link to="/">Salesforce</Link></p>
+                            <p><Link to="/">Digital Marketing</Link></p>
+                        </div>
+                    </div>
+
+                    <div className='col-md-3 mt-3 moreFooter'>
+                        <h3>Quick Links</h3>
+                        <div className='footerCourses '>
+                            <p><Link to="/">Home</Link></p>
+                            <p><Link to="/about">About Us</Link></p>
+                            <p><Link to="/services">Services</Link></p>
+                            <p><Link to="/course">Courses</Link></p>
+                            <p><Link to="/enroll">Enroll</Link></p>
+                            <p><Link to="/placement">Placements</Link></p>
+                            <p><Link to="/project">Projects</Link></p>
+                            <p><Link to="/contact">Contact</Link></p>
+                            <p><Link to="/blogs">Blogs</Link></p>
+                        </div>
+                    </div>
+
+                    <div className='col-md-3 mt-3 moreFooter'>
+                        <h3>More</h3>
+                        <div className=' footerCourses'>
+                            <p><Link to="/">Terms</Link></p>
+                            <p><Link to="/">Privacy</Link></p>
+                            <p><Link to="/">Help</Link></p>
+                            <p><Link to="/">Contact</Link></p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </footer>
-
+        </div>
     )
 }
 

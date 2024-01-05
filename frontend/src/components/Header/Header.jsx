@@ -54,6 +54,34 @@ const Header = () => {
                                     About
                                 </Link>
                             </li>
+                            <li className="nav-item dropdown">
+                                <Link
+                                    className="nav-link dropdown-toggle"
+                                    to="/courses"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Courses
+                                </Link>
+                                <ul className="dropdown-menu">
+                                    <li>
+                                        <a className="dropdown-item" href="#">
+                                            Action
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a className="dropdown-item" href="#">
+                                            Another action
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a className="dropdown-item" href="#">
+                                            Something else here
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
 
                             <li className="nav-item dropdown">
                                 <Link
@@ -83,37 +111,10 @@ const Header = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="nav-item dropdown">
-                                <Link
-                                    className="nav-link dropdown-toggle"
-                                    to="/courses"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    Courses
-                                </Link>
-                                <ul className="dropdown-menu">
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Action
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Another action
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Something else here
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
+
                             <li className="nav-item px-2">
                                 <Link className="nav-link" to="/enroll">
-                                    Enroll
+                                    Enroll Now
                                 </Link>
                             </li>
                             <li className="nav-item px-2">
@@ -121,11 +122,11 @@ const Header = () => {
                                     Placements
                                 </Link>
                             </li>
-                            <li className="nav-item px-2">
+                            {/* <li className="nav-item px-2">
                                 <Link className="nav-link" to="/blogs">
                                     Blogs
                                 </Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item px-2">
                                 <Link className="nav-link" href="/contact">
                                     Contact

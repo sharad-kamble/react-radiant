@@ -1,21 +1,148 @@
-/* Default styles for larger screens */
-.carousel-inner img {
-    object-fit: cover;
-    max-height: 500px;
+.carousel-i img {
+  height: 535px;
+  object-fit: cover;
+  /* margin-right: 20px; */
+
 }
 
-.carousel-img {
-    width: 1440px;
-    height: 714px;
-    top: 146.24px;
-    left: 0.31px;
-    object-fit: cover;
-    max-height: 500px; /* Optional: To limit the height if needed */
+/* Default styles */
+.carousel-container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: auto;
+
 }
 
-/* Media query for screens smaller than 768px (adjust as needed) */
+/* .carousel-i {
+  position: relative;
+
+} */
+
+.carousel-cap {
+  position: absolute;
+
+  top: 37%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+
+}
+
+.explorecrs:hover {
+  margin-left: 85px;
+  /* Set the margin for larger screens */
+  /* Center the button in mobile responsive views */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border: 1px solid #025978;
+  color: #000;
+  /* display: block; */
+
+}
+
+.explorecrs {
+  width: 200px;
+  height: 50px;
+  border-radius: 90px;
+  border: 1px;
+  background-color: #025978;
+  color: white;
+  padding: 5px;
+}
+
+
+
+.carousel-cap {
+  /* height: auto; */
+  text-align: left;
+  left: 340px;
+  /* Adjust the left offset as needed */
+  right: auto;
+  bottom: 10%;
+  /* Ensure right is set to auto to override Bootstrap styles */
+
+
+}
+
+.carousel-cap p h1 {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  /* Adjust the font size as needed */
+}
+
+
 @media (max-width: 767px) {
-    .carousel-inner img {
-        max-height: 300px; /* Adjust the max height for smaller screens */
+  .carousel-i img {
+    max-width: 100%;
+    display: block;
+    height: 700px;
+    width: auto;
+    object-fit: cover;
+  }
+
+  .carousel-i::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(rgba(2, 89, 120, 0.5), rgba(2, 89, 120, 0.5));
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .carousel-cap p,
+  .carousel-cap h1 {
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    opacity: 1;
+    transition: opacity 0.3s ease; /* Add a transition for opacity */
+  }
+
+  .carousel-cap h1 {
+    font-size: 35px;
+  }
+
+  .carousel-cap {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2; /* Set a higher z-index to bring the caption above the gradient */
+    /* opacity: 1; */
+    animation: fadeIn 3s ease-in-out;
+  }
+
+  .carousel-cap:hover {
+    opacity: 1; /* Ensure opacity is 1 on hover */
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
     }
+    to {
+      opacity: 1;
+    }
+  }
+  .explorecrs:hover,
+  .explorecrs:active {
+    background-color: #fff;
+    border: 1px solid #025978;
+    z-index: 3; /* Higher z-index for the button */
+    color: #000;
+  }
+
+  .carousel-container {
+    text-align: center;
+  }
 }
+
+
+  

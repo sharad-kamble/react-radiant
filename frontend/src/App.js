@@ -33,7 +33,7 @@ function App() {
       <Testimonial/>
       {/* <Placement/> */}
   
-      {/* <Footer/> */}
+      <Footer/>
      
        
      

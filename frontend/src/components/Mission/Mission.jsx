@@ -13,15 +13,21 @@ const Mission = () => {
 
                         </div>
                         <div className="col-md-6">
-                            <p className="mt-5">
-                                <strong>About Us</strong>
+                            <p className="abtstyl mt-5" style={{ color: "#025978", display: "flex", alignItems: "center" }}>
+                                <strong style={{ margin: "0 0.5em" }}>About Us</strong>
+                                <span style={{ width: "40px", borderBottom: "2px solid #025978", marginLeft: "0.2em", position: "relative" }}>
+                                    <span className="bullet " style={{ position: "absolute", paddingBottom: "0.1em", top: "40%",   left: "100%", transform: "translate(-50%, -50%)", display: "inline-block ", fontSize: "2.9em" }}>&#8226;</span>
+                                </span>
                             </p>
+
+
+
                             <h2 className="mt-4">
                                 Our mission is to empower<br />
                                 individuals to acquire new skills.
                             </h2>
                             <p className='mt-4'>
-                                In Radiant, we believe in the transformative power of education.<br/> Our mission is to empower individuals to acquire new skills, <br/>empower their knowledge.
+                                In Radiant, we believe in the transformative power of education.<br /> Our mission is to empower individuals to acquire new skills, <br />empower their knowledge.
                             </p>
                             <div className="row mt-4">
                                 <div className="col-md-4">
@@ -40,7 +46,7 @@ const Mission = () => {
                                 </div>
                                 <div className="">
                                     <button type="submit" className="readmore mt-3">
-                                        READ MORE
+                                        <strong>READ MORE</strong>
                                     </button>
                                 </div>
 
@@ -55,7 +61,7 @@ const Mission = () => {
             </div>
 
         </div>
-        
+
     );
 };
 

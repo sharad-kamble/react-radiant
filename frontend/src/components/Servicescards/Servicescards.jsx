@@ -11,11 +11,20 @@ const ServicesCards = () => {
     return (
 
         <div className='container-fluid homepagecard'>
-            <div className="text-center pt-5">
-                <h3>Our Services</h3>
+            <div className=" text-center pt-5">
+                <h3 className="ourserv"><strong>OUR SERVICES</strong></h3>
                 <p>Transforming challenges into IT innovations, effortlessly.</p>
             </div>
             <div className="row justify-content-center mt-4" >
+
+                <div className="card m-4 cardImg" style={{ width: "18rem" }}>
+                    < img className="card-img-top card1img" src={industril} alt="Card image cap" />
+                    <div className="card-body">
+                        <h5 className="card-title">INDUSTRIAL TRAINING</h5>
+                        <p className="card-text">Elevate your career prospects with hands-on training led by industry experts, setting the foundation for a successful and dynamic professional path.</p>
+
+                    </div>
+                </div>
                 <div className="card m-4 mb-4 cardImg" style={{ width: "18rem" }}>
                     < img className="card-img-top card1img" src={digital} alt="Card image cap" />
                     <div className="card-body">
@@ -24,14 +33,7 @@ const ServicesCards = () => {
 
                     </div>
                 </div>
-                <div className="card m-4 mb-4 cardImg" style={{ width: "18rem" }}>
-                    <img className="card-img-top card1img" src={software} alt="Card image cap" />
-                    <div className="card-body">
-                        <h5 className="card-title">SOFTWARE DEVELOPMENT</h5>
-                        <p className="card-text">The Radiant IT Services is the best software development company in the industry, which gives more reliable Applications.</p>
 
-                    </div>
-                </div>
                 <div className="card m-4 mb-4 cardImg" style={{ width: "18rem" }}>
                     <img className="card-img-top card1img" src={website} alt="Card image cap" />
                     <div className="card-body">
@@ -44,16 +46,16 @@ const ServicesCards = () => {
             </div>
 
             <div className="row justify-content-center mt-4" >
-                <div className="card m-4 cardImg" style={{ width: "18rem" }}>
-                    < img className="card-img-top card1img" src={industril} alt="Card image cap" />
+                <div className="card m-4 mb-4 cardImg" style={{ width: "18rem" }}>
+                    <img className="card-img-top card1img" src={software} alt="Card image cap" />
                     <div className="card-body">
-                        <h5 className="card-title">INDUSTRIAL TRAINING</h5>
-                        <p className="card-text">The radiant IT Services Provide
-                            Industrial Training in with hands on
-                            experience.</p>
+                        <h5 className="card-title">SOFTWARE DEVELOPMENT</h5>
+                        <p className="card-text">The Radiant IT Services is the best software development company in the industry, which gives more reliable Applications.</p>
 
                     </div>
                 </div>
+
+
                 <div className="card m-4 cardImg" style={{ width: "18rem" }}>
                     <img className="card-img-top card1img" src={app} alt="Card image cap" />
                     <div className="card-body">
@@ -69,11 +71,8 @@ const ServicesCards = () => {
                 <div className="card m-4 cardImg" style={{ width: "18rem" }}>
                     <img className="card-img-top card1img" src={billing} alt="Card image cap" />
                     <div className="card-body">
-                        <h5 className="card-title">BILLING SOFTWARE</h5>
-                        <p className="card-text">The Radiant IT Services in Pune
-                            provides you the best billing software
-                            services which are helpful for every
-                            organization.</p>
+                        <h5 className="card-title">CORPORATE TRAINING</h5>
+                        <p className="card-text">Empower your workforce with Radiant IT Services Pvt Ltd's cutting-edge Corporate Training and Program solutions.</p>
 
                     </div>
                 </div>

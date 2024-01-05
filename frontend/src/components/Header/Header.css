@@ -46,3 +46,13 @@
     z-index: 1000;
     background-color: #ffffff; 
 }
+
+/* Add this style for mobile view (e.g., screens smaller than 768px) */
+/* Add this style for mobile view (e.g., screens smaller than 768px) */
+/* @media (max-width: 768px) {
+    .navbar.navbar-expand-lg {
+        box-shadow: 0px 50px 52px rgba(0, 0, 0, 0.1); /* Customize the shadow as needed */
+        /* background-color: #cfd9da;
+    }
+}  */
+

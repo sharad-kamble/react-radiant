@@ -9,6 +9,12 @@
     font-weight: 700;
 }
 
+.tstspan {
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+}
+
 .row .tstmopara {
     margin-top: 60px;
     margin-bottom: 100px;
@@ -113,6 +119,27 @@
 }
 
 
+/* styles.css */
+
+.testminfo {
+    text-align: left;
+    color: #025978;
+    position: relative;
+    margin-left: 30px;
+}
+
+.testminfo:before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: #025978;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -30px;
+    /* Adjust the distance of the line from the text */
+}
+
 
 
 @media (max-width: 767px) {
@@ -128,8 +155,9 @@
         margin-left: 50px;
         margin-right: 50px;
         font-weight: 800;
-        text-align: center !important;
+        text-align: start !important;
     }
+
 
     .tstmoHead {
         font-size: 30px;
@@ -183,12 +211,85 @@
         margin-left: auto;
     }
 
-    .tstmoCarousel{
+    .tstmoCarousel {
         height: auto;
         width: auto;
-       
+
     }
 
-    
+
 }
+
+@media only screen and (max-width: 600px) {
+    .testminfo {
+        /* Adjust styles for screens with a maximum width of 600 pixels or less */
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .testminfo:before {
+        /* Adjust styles for screens with a maximum width of 600 pixels or less */
+        display: none;
+        /* Hide the line on smaller screens */
+    }
+
+    .tstmoHead {
+        text-align: center;
+        margin-left: 46px;
+    }
+}
+
+/* Default styles for larger screens */
+.testmoprev,
+.testmonext {
+    position: absolute;
+    top: 32%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: #025978;
+    border-radius: 50%;
+    font-size: 1.5em;
+    /* Adjust as needed */
+    text-align: center;
+    line-height: 38px;
+    /* Adjust for vertical centering */
+    color: white;
+    /* Text color for the icons */
+    cursor: pointer;
+    /* Add cursor pointer for better usability */
+}
+
+.testmoprevicon,
+.testmonexticon {
+    color: black;
+}
+
+.testmoprev {
+    left: 105px;
+}
+
+.testmonext {
+    left: 385px;
+}
+
+/* Media query for screens with a maximum width of 600 pixels or less */
+@media only screen and (max-width: 600px) {
+    .testmoprev,
+    .testmonext {
+        top: 25%;
+        width: 45px;
+        height: 45px;
+        font-size: 1em;
+    }
+
+    .testmoprev {
+        left: 70px; /* Adjust the left positioning for mobile */
+    }
+
+    .testmonext {
+        left: 267px; /* Adjust the left positioning for mobile */
+    }
+}
+
 

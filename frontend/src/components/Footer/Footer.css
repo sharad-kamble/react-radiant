@@ -1,0 +1,25 @@
+
+
+.footerCourses a {
+    display: block;
+    margin-bottom: 8px; 
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footerCourses a:last-child {
+    margin-bottom: 0; 
+  }
+  
+  .moreFooter{
+    text-align: center;
+  }
+
+ 
+
+  
+  @media (max-width: 767px) {
+    .moreFooter{
+        text-align: start;
+      }
+  }

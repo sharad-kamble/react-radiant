@@ -1,8 +1,8 @@
 import React from 'react';
 import './testimonial.css';
-import Line from "../../assets/images/Line.png";
+// import Line from "../../assets/images/Line.png";
 import student from "../../assets/images/student.png"
-import Placement from '../Placementnews/Placement';
+// import Placement from '../Placementnews/Placement';
 
 
 const Testimonial = () => {
@@ -11,7 +11,8 @@ const Testimonial = () => {
             <div className='container'>
                 <div className='row justify-content-center'>
                     <div className='col-md-6 mt-5'>
-                        <img src={Line} className='tstimg' /> <span className='tstspan'>TESTIMONIAL</span>
+                        <h6 class="testminfo">T E S T I M O N I A l S</h6>
+                        {/* <img src={Line} className='tstimg' /> <span className='tstspan'>TESTIMONIAL</span> */}
                         <h2 className='mt-3 tstmoHead'>What do they say?</h2>
                         <p className=' tstmopara'>
                             "Radiant IT Services proudly announces partnerships with over 150 leading IT companies, facilitating exceptional opportunities for students, resulting in over 300 successful placements— a testament to our commitment to fostering promising careers in the IT industry."
@@ -28,10 +29,10 @@ const Testimonial = () => {
                         <div id="carouselExample" className="testimonial-carousel carousel slide" data-bs-ride="carousel">
                             <div className="carousel-inner" >
                                 <div className="testcarousel carousel-item active">
-                                    <img src={student} className="d-block mx-auto  w-50" alt="First slide" />
+                                    <img src={student} className="testmocaro d-block mx-auto  w-50 " style={{ borderRadius: '35px' }} alt="First slide" />
 
-                                    <div className="carousel-content carouselContent">
-                                       
+                                    <div className="testimonialscaro carousel-content carouselContent">
+
                                         <p className='px-4 pt-2'>Hi, I am Shital kharade. Completed my Full Stack Java
                                             Development course from Radiant It services. I got early
                                             calls and placed in MNC-Capgemini for 4.5LPA package.
@@ -45,7 +46,7 @@ const Testimonial = () => {
                                 </div>
 
                                 <div className="carousel-item">
-                                    <img src={student} className="d-block mx-auto  w-50" alt="Second slide" />
+                                    <img src={student} className="d-block mx-auto  w-50" alt="Second slide" style={{ borderRadius: '35px' }} />
 
                                     <div className="carousel-content carouselContent">
                                         <p className='px-4 pt-2'>Hi, I am Shubham Vijay. Completed my Full Stack Java
@@ -59,25 +60,25 @@ const Testimonial = () => {
                                         <p className='px-4 pb-2'>-Full Stack MERN Developer</p>
                                     </div>
                                 </div>
-                                
+
                                 {/* 2nd image */}
                             </div>
-                            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <button className="testmoprev carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                <span className="testmoprevicon carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span className="visually-hidden">Previous</span>
                             </button>
-                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <button className="testmonext carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <span className="testmonexticon carousel-control-next-icon" aria-hidden="true"></span>
                                 <span className="visually-hidden">Next</span>
                             </button>
                         </div>
                     </div>
 
                 </div>
-                
+
 
                 <div className='row mt-5 '>
-                    <h2 className='text-center placementNews mb-4'>Placements News</h2>
+                    <h2 className='text-center placementNews mb-4'>Placement News</h2>
                     <div className="col-md-6 mx-auto ">
                         <div id="carouselExampleDark" className="plmntCrousel carousel  carousel-dark slide" data-bs-ride="carousel">
                             <div className="carousel-inner">
@@ -123,12 +124,12 @@ const Testimonial = () => {
 
                 <div className='row mt-5 justify-content-center subscribeCard'>
                     <div className='subscribe'>
-                        <h3 className='text-center'>Subscribe For Get Update
+                        <h3 className='text-center'>Subscribe to Get Updates
                             <br />
-                            Every New Course
+                            For Every New Course
                         </h3>
                         <p className='text-center'>
-                            10k students daily learn with Radiant. Subscribe for new courses.
+                            Subscribe for new courses.
                         </p>
                         <form>
                             <div className="input-group inputGrp  mx-auto">
@@ -142,9 +143,9 @@ const Testimonial = () => {
                     </div>
                 </div>
             </div>
-            
+
         </div>
-           
+
     )
 }
 

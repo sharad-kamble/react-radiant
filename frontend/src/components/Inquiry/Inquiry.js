@@ -75,7 +75,7 @@ const Inquiry = () => {
                                     </div>
 
                                     <button type="submit" className="submitButton mt-3">
-                                        Submit
+                                        <strong>SUBMIT</strong>
                                     </button>
                                 </form>
                             </div>

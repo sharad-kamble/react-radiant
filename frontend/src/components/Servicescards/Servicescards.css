@@ -41,6 +41,10 @@
 .card-text{
     padding: 5px;
 }
+.ourserv{
+    color: #025978;
+
+}
 
 @media (max-width: 767px) {
     .cardImg {
@@ -62,6 +66,8 @@
         text-align: center;
         padding: 0px 0px 0px 4px;
     }
+    
+   
 
     
 }

@@ -25,6 +25,8 @@
 }
 
 
+
+
 @media (max-width: 767px) {
     .img1 {
         height: auto;
@@ -64,3 +66,5 @@
       padding-left: 53px; 
     }
   }
+
+  

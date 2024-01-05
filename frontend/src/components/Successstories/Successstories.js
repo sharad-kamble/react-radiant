@@ -8,19 +8,17 @@ const Successstories = () => {
                 <div className='row'>
                     <div className='col-md-6 text-center ml-4 sucstories'>
                         <h3 className='m-3'>
-                            Radiant Success
+                            Radiant's Success
                             <br />
                             Stories!
                         </h3>
                     </div>
 
-
                     <div className='col-md-6 text-center  sucstoriespara'>
                         <p className="text-start">
-                            Radiant has trained and helped people build a great career and change their
-                            life! We have got our own superheroes whose stories are really an inspiration
-                            to a lot of aspiring IT professionals. Read a few of Radiant Students' case studies.
-                            It will definitely help you build a positive attitude.
+                            Radiant has trained and helped candidates to build a great career and change their
+                            lifestyle! We have our own superheroes whose stories serve as inspiration for many aspiring IT professionals. Read our candidate's success stories.
+                            It will help you with your career decision.
                         </p>
                     </div>
 

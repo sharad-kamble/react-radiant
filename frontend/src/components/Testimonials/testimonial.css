@@ -284,11 +284,11 @@
     }
 
     .testmoprev {
-        left: 70px; /* Adjust the left positioning for mobile */
+        left: 65px; /* Adjust the left positioning for mobile */
     }
 
     .testmonext {
-        left: 267px; /* Adjust the left positioning for mobile */
+        left: 255px; /* Adjust the left positioning for mobile */
     }
 }
 

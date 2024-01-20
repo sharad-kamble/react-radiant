@@ -1,0 +1,29 @@
+.custom-input {
+    border-color: #0097A4;
+  }
+  
+  .sendMsgBtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 90px;
+    border: 1px solid #025978;
+    background-color: #025978;
+    color: #fff;
+    padding: 5px;
+}
+
+.sendMsgBtn:hover{
+    background-color: #fff;
+    border: 1px solid #025978;
+    color: #025978;
+}
+
+.getInTouch{
+    color: #025978;
+}
+
+@media (max-width: 767px) {
+    .getInTouch{
+        text-align: center;
+    }
+}

@@ -1,0 +1,96 @@
+.AboutUs {
+    background-color: #D0F1F4;
+}
+
+.aboutText p {
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;
+}
+
+.abouth3 {
+    color: #025978;
+}
+
+.aboutPara {
+   
+  
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.abouth6{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0097A4;
+    
+}
+.abouth4{
+    
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+
+.aboutTeamMem{
+    background-color: #ECFDFF;
+}
+.abtcardHead{
+    color: #35C1D5;
+}
+
+.abouth2{
+    color: #025978;
+}
+
+.abtdiff{
+    background-color: #025978;
+
+
+}
+
+.joinUsBtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 90px;
+    border: 1px solid #5BD066;
+    background-color: #025978;
+    color: #5BD066;
+    padding: 5px;
+}
+
+.joinUsBtn:hover{
+    background-color: #fff;
+    border: 1px solid #5BD066;
+    color: #5BD066;
+}
+  
+ /* Center the image on small screens */
+ @media (max-width: 767px) {
+    .abouth4{
+        margin-left: 15px;
+        margin-right: auto;
+    }
+
+    .aboutImg {
+      text-align: center;
+      width: 100%;
+      height: auto;
+    }
+
+    .abouth2{
+        text-align: center;
+    }
+  }

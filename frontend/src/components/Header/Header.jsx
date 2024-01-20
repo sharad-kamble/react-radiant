@@ -66,60 +66,62 @@ const Header = () => {
                                 </Link>
                                 <ul className="dropdown-menu">
                                     <li>
-                                        <a className="dropdown-item" href="#">
-                                            Action
-                                        </a>
+                                        <Link className="dropdown-item" to="/courses/full-stack-development-course">
+                                            Full Stack Java Development 
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a className="dropdown-item" href="#">
-                                            Another action
-                                        </a>
+                                        <Link className="dropdown-item" to="/courses/data-science-course">
+                                            Data Science
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a className="dropdown-item" href="#">
-                                            Something else here
-                                        </a>
+                                        <Link className="dropdown-item" to="/courses/web-development-course">
+                                            Web Development
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="dropdown-item" to="/courses/digital-marketing-course">
+                                            Digital Marketing
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="dropdown-item" to="/courses/ui-ux-design-course">
+                                            UI/UX Design
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="dropdown-item" to="/courses/salesforce-course">
+                                            Salesforce
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className="dropdown-item" to="/courses/powerbi-course">
+                                            PowerBI
+                                        </Link>
                                     </li>
                                 </ul>
                             </li>
-
-                            <li className="nav-item dropdown">
-                                <Link
-                                    className="nav-link dropdown-toggle"
-                                    to="/services"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
+                        
+                            <li className="nav-item px-2">
+                                <Link className="nav-link" to="/services">
                                     Services
                                 </Link>
-                                <ul className="dropdown-menu">
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Action
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Another action
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="dropdown-item" href="#">
-                                            Something else here
-                                        </a>
-                                    </li>
-                                </ul>
                             </li>
 
                             <li className="nav-item px-2">
-                                <Link className="nav-link" to="/enroll">
+                                <Link className="nav-link" to="/enroll-now">
                                     Enroll Now
                                 </Link>
                             </li>
                             <li className="nav-item px-2">
-                                <Link className="nav-link" to="/placements">
-                                    Placements
+                                <Link className="nav-link" to="/placement">
+                                    Placement
+                                </Link>
+                            </li>
+                            <li className="nav-item px-2">
+                                <Link className="nav-link" to="/projects">
+                                    Projects
                                 </Link>
                             </li>
                             {/* <li className="nav-item px-2">
@@ -128,7 +130,7 @@ const Header = () => {
                                 </Link>
                             </li> */}
                             <li className="nav-item px-2">
-                                <Link className="nav-link" href="/contact">
+                                <Link className="nav-link" to="/contact">
                                     Contact
                                 </Link>
                             </li>

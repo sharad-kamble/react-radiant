@@ -1,0 +1,270 @@
+
+
+.enrollContainer{
+    margin-top: 30px;
+    background-color: #FFF;
+    padding: 10px;
+}
+.form-bg {
+    border: 1px solid #025978;
+    /* border: 2px solid #00000050; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+
+}
+
+.img-bg {
+
+    padding: 14px;
+}
+
+/* Custom styles for horizontal image */
+.horizontal-image {
+    display: flex;
+    align-items: right;
+
+
+}
+
+.horizontal-image img {
+    max-width: 100%;
+
+}
+
+.headers {
+    background: #35C1D5;
+
+}
+
+.headers h5 {
+    font-size: 30px;
+}
+
+/* for all input feild border0 */
+
+.trainigC {
+    color: #025978;
+    font-size: 40px;
+    font-weight: 600;
+
+    padding: 10px 0px 10px 0px;
+}
+
+.lable {
+    color: #025978;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.form-label {
+    padding: 8px 0px 8px 0px;
+}
+
+
+.personalInfo {
+    color: #025978;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+
+.educationalInfo {
+    background: #35C1D5;
+    border: 1px solid #35C1D5;
+    padding: 8px 0px 8px 0px;
+    color: #FFF;
+    /* font-size: 40px; */
+    font-style: normal;
+    font-weight: 700;
+
+
+}
+
+.educationalInfoHead {
+    background: #025978;
+    color: #FFF;
+}
+
+.res-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.thead {
+    background: #025978;
+    border: 1px solid #35C1D5;
+    padding: 8px 0px 8px 0px;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #11babd;
+}
+
+th {
+    border: none;
+}
+
+.no-border {
+    border: none;
+}
+
+
+.paymentMode {
+    width: 257px;
+    height: 55px;
+    border-radius: 100px;
+    border: 1px solid #025978;
+    background: #025978;
+    color: #FFF;
+
+
+}
+
+.activityTable .activity {
+    border: 1px solid #025978;
+    background: #D0F1F4;
+}
+
+.activityTable td {
+    border: 1px solid #025978;
+}
+
+.lingualskill .language {
+    border: 1px solid #025978;
+    background: #D0F1F4;
+}
+
+.lingualskill tr {
+    border: 1px solid #025978;
+}
+
+/* Remove default list styles */
+/* li {
+    list-style-type: none;
+  }
+  
+  li:first-child::before,
+  li:nth-child(2)::before {
+    content: "•"; 
+    color: skyblue; 
+    font-size: 1.5em;
+    display: inline-block;
+    width: 1em; 
+    margin-right: 0.2em; 
+  }
+  
+  li:first-child,
+  li:nth-child(2) {
+    color: black; 
+  } */
+.refrences {
+    background-image: url('../../assets/images/bglogo.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    backdrop-filter: blur(30px);
+    padding: 20px;
+    height: 100%;
+    
+    box-sizing: border-box;
+   
+}
+
+
+
+.rulesRegulation {
+    color: #025978;
+}
+
+.emithead {
+    background: #35C1D5;
+    color: #FFF;
+    border: 1px solid #35C1D5;
+
+}
+
+.emitbody {
+    border: 1px solid #000;
+    background: #D0F1F4;
+}
+
+.emi-field {
+    background: #D0F1F4;
+    border: none;
+}
+
+.signature {
+    border-radius: 100px;
+    border: 1px solid #025978;
+    background: #025978;
+    width: 300px;
+    height: 50px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+/* Media query for small devices */
+@media (max-width: 767px) {
+    .signature {
+        width: 100%; 
+        max-width: 300px; 
+    }
+}
+
+.date {
+    border: 1px solid #D0F1F4;
+    background: #D0F1F4;
+}
+
+.dateLabel {
+    color: #025978;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.associatedCompanies {
+    color: #025978;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.downloadAndSubmit {
+    border: 1px solid #025978;
+    background: #025978;
+    width: 300px;
+    height: 62px;
+    flex-shrink: 0;
+    color: #FFF;
+}
+
+/* Media query for small devices */
+@media (max-width: 767px) {
+    .downloadAndSubmit {
+        width: 100%; 
+        max-width: 300px; 
+    }
+}

@@ -1,0 +1,89 @@
+.ProjectSec2 {
+    color: #025978;
+}
+
+.ourCanProject {
+    background-color: #35C1D5;
+}
+
+.placementdrive {
+    background-color: #1F6D89;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #5BD066;
+    /* Common border color */
+    padding: 10px;
+    height: 200px;
+    width: 900px;
+    border-radius: 20px;
+    /* Adjust padding as needed */
+}
+
+.inline-heading {
+    margin-right: 10px;
+    /* Adjust margin between heading and button */
+    text-align: center;
+}
+
+.regnowbtn {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #5BD066;
+    background-color: #1F6D89;
+    color: #5BD066;
+    padding: 5px;
+    margin-left: 25px;
+
+}
+
+.regnowbtn:hover {
+    background-color: #fff;
+    color: #5BD066;
+}
+
+.inline-heading {
+    margin-left: 170px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .content-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .inline-heading {
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .regnowbtn {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .CardImgTop {
+        margin: 0 auto;
+        display: block;
+        height: 80px;
+    }
+
+    .TextEnd,
+    .TextStart {
+        text-align: center !important; 
+    }
+}

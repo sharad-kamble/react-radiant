@@ -1,27 +1,72 @@
+/* src/components/Socialbar.css */
+
 .header {
-    background: #D0F1F4;
+  background: #D0F1F4;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.facebook-icon {
+  color: #3b5998;
+}
+
+.whatsapp-icon {
+  color: #25d366;
+}
+
+.instagram-icon {
+  color: #c13584;
+}
+
+.linkedin-icon {
+  color: #0077b5;
+}
+
+.Youtube-icon{
+  color: #FF0000;
+}
+
+.facebook-icon:hover,
+.Youtube-icon:hover,
+.whatsapp-icon:hover,
+.linkedin-icon:hover,
+.instagram-icon:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact,
+.email {
+  margin-right: 10px;
+}
+
+.email-icon, a{
+  text-decoration: none;
+  color: #000;
+
+}
+
+/* Media query for screens with a maximum width of 767 pixels (typical for mobile devices) */
+@media only screen and (max-width: 767px) {
+  .header {
+    padding: 10px; /* Adjust padding for better spacing on smaller screens */
   }
-  
-  .facebook-icon {
-    color: #3b5998;
+
+  .social-icons {
+    /* flex-direction: column; 
+    align-items: center; */
+    display: none;
   }
-  
-  .whatsapp-icon {
-    color: #25d366;
+
+  .contact-info {
+    margin-bottom: 10px; /* Add margin between contact and email on smaller screens */
   }
-  
-  .instagram-icon {
-    color: #c13584;
-  }
-  
-  .linkedin-icon {
-    color: #0077b5;
-  }
-  
-  .facebook-icon:hover,
-  .whatsapp-icon:hover,
-  .linkedin-icon:hover,
-  .instagram-icon:hover {
-    transform: scale(1.5);
-    cursor: pointer;
-  }
+}

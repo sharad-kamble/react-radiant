@@ -135,7 +135,7 @@ const Testimonial = () => {
                             <div className="input-group inputGrp  mx-auto">
                                 <input type="email" className="form-control subcribeInp" placeholder='Enter your email' required />
                                 <div className="input-group-append">
-                                    <button className='subscribeBtn' type="button">Subscribe</button>
+                                    <button className='subscribeBtn' type="submit">Subscribe</button>
                                 </div>
                             </div>
                         </form>

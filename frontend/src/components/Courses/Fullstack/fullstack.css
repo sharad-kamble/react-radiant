@@ -121,6 +121,7 @@
     .FullstackCard,
     .FullstackCard2 {
         max-width: 100%; /* Adjust the max-width for tablets */
+        height: auto;
     }
 
     .fullStackRight {
@@ -167,7 +168,7 @@
     }
 
     .FullstackCard2 {
-        height: 100%;
+       
         width: 100%;
         border-radius: 20px;
         padding: 1rem;

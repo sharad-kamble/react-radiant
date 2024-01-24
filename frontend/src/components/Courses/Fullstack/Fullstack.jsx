@@ -426,12 +426,12 @@ const Courses = () => {
                 <div id="flush-collapseTwelve" className="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
                   <div className="accordion-body">
                     <ul>
-                    <li>React ES6</li>
-                    <li>React Render HTML</li>
-                    <li>React JSX</li>
-                    <li>React Components</li>
-                    <li>React Class</li>
-                    <li>React Props</li>
+                      <li>React ES6</li>
+                      <li>React Render HTML</li>
+                      <li>React JSX</li>
+                      <li>React Components</li>
+                      <li>React Class</li>
+                      <li>React Props</li>
                     </ul>
                   </div>
                 </div>
@@ -447,64 +447,64 @@ const Courses = () => {
                 <div id="flush-collapseThirteen" className="accordion-collapse collapse" aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionFlushExample">
                   <div className="accordion-body">
                     <ul>
-                    <li>Mongo DB Data Modeling</li>
-                    <li>Create Database</li>
-                    <li>Create Collection</li>
-                    <li>Data Types</li>
-                    <li>Insert Document</li>
-                    <li>Query Document</li>
+                      <li>Mongo DB Data Modeling</li>
+                      <li>Create Database</li>
+                      <li>Create Collection</li>
+                      <li>Data Types</li>
+                      <li>Insert Document</li>
+                      <li>Query Document</li>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-         
+
 
           <div className='col-md-6'>
-            <div className='fullStackRight'>
 
 
-              <div className='FullstackCard p-4 py-4'>
-                <div>
-                  <h2 className='text-light mx-4 mt-4'>Contact Us</h2>
-                </div>
-                <div className="d-flex align-items-center  py-2">
-                  <div className="bg-danger text-light rounded-circle  mx-4">
-                    <MdPhone size={20} className="phone-icon" />
-                  </div>
-                  <span className="mx-4 phone-text text-white">+91-9766861473</span>
-                  <div className="custom-vr mx-2"></div>
-                  <div className="mx-4 text-light">+91-9766861473</div>
-                </div>
-                <div className="d-flex align-items-center  py-2">
-                  <div className="bg-success text-light rounded-circle  mx-4">
-                    <FaWhatsapp size={20} className="phone-icon" />
-                  </div>
-                  <span className="mx-4 phone-text text-white">+91-9766861473</span>
-                  <div className="custom-vr mx-2"></div>
-                  <div className="mx-4 text-light">+91-9766861473</div>
-                </div>
+
+            <div className='FullstackCard p-4 py-4'>
+              <div>
+                <h2 className='text-light mx-4 mt-4'>Contact Us</h2>
               </div>
-
-              <div className='FullstackCard2 h-100 p-4 mt-4 py-4 '>
-                <div>
-                  <h2 className='text-light text-center mx-4 py-3'>
-                    BENEFITS OF THE <br />
-                    COURSE
-                  </h2>
+              <div className="d-flex align-items-center  py-2">
+                <div className="bg-danger text-light rounded-circle  mx-4">
+                  <MdPhone size={20} className="phone-icon" />
                 </div>
-                <div>
-                  <ul>
-                    <li>Holistic Skill Set</li>
-                    <li>Project-Based Learning</li>
-                    <li>Mentorship and Guidance </li>
-                    <li>Career Advancement </li>
-                    <li>Adaptive Curriculum</li>
-                  </ul>
+                <span className="mx-4 phone-text text-white">+91-9766861473</span>
+                <div className="custom-vr mx-2"></div>
+                <div className="mx-4 text-light">+91-9766861473</div>
+              </div>
+              <div className="d-flex align-items-center  py-2">
+                <div className="bg-success text-light rounded-circle  mx-4">
+                  <FaWhatsapp size={20} className="phone-icon" />
                 </div>
+                <span className="mx-4 phone-text text-white">+91-9766861473</span>
+                <div className="custom-vr mx-2"></div>
+                <div className="mx-4 text-light">+91-9766861473</div>
               </div>
             </div>
+
+            <div className='FullstackCard2 p-4 mt-4 py-4 '>
+              <div>
+                <h2 className='text-light text-center mx-4 py-3'>
+                  BENEFITS OF THE <br />
+                  COURSE
+                </h2>
+              </div>
+              <div>
+                <ul>
+                  <li>Holistic Skill Set</li>
+                  <li>Project-Based Learning</li>
+                  <li>Mentorship and Guidance </li>
+                  <li>Career Advancement </li>
+                  <li>Adaptive Curriculum</li>
+                </ul>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

@@ -1,0 +1,324 @@
+.fullstkCon {
+    background-color: #D0F1F4;
+    text-align: center;
+}
+
+.fullstkPara {
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 30px; */
+    line-height: 250%;
+    letter-spacing: 0em;
+}
+
+.accordionBtn {
+    background-color: #35C1D5;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #35C1D5;
+
+}
+
+.customAccordion {
+    background-color: #D0F1F4;
+    width: 460px;
+
+}
+
+.plus-sign {
+    font-size: 25px;
+    padding: auto;
+}
+
+.accordion-item.customAccordion:not(.collapsing) .accordionBtn {
+    background-color: #35C1D5;
+    color: #fff;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 660px;
+}
+
+
+.accordion-item.customAccordion:not(.collapsing) .accordionBtn:hover {
+    background-color: #2a9cb7;
+
+}
+
+
+
+
+.FullstackCard {
+    background-color: #0097A4;
+    border: 1px solid #0097A4;
+    border-radius: 50px;
+    width: 480px;
+    height: 215px;
+}
+
+.custom-vr {
+    border-left: 1px solid #fff;
+    height: 20px;
+}
+
+.DigitalCard {
+    background-color: #0097A4;
+    border: 1px solid #0097A4;
+    border-radius: 50px;
+    width: 480px;
+    height: 550px;
+}
+
+.DigitalCard ul {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+
+}
+
+.fullStackRight {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.fullstackCourseDetail{
+    background-color: #ECFDFF;
+    padding: 20px;
+}
+.fullstackCrsDetail{
+    background-color: #D0F1F4;
+    padding: 10px;
+}
+
+.courseDetailText{
+    color: #1F6D89;
+}
+
+
+.courseReview{
+    background-color: #1F6D89;
+}
+
+.star-yellow {
+    color: #FFE605; 
+    font-size: 24px;
+}
+
+.ReviewCard{
+    background-color: #D0F1F4;
+    border-radius: 25px;
+    /* height: 400px; */
+}
+
+
+/* For Tablets */
+@media (max-width: 1024px) {
+    .FullstackCard,
+    .DigitalCard {
+        max-width: 100%; /* Adjust the max-width for tablets */
+        /* height: auto; */
+    }
+
+    .fullStackRight {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+
+    
+}
+
+
+
+
+/*  For Small Devices Screen */
+@media (max-width: 767px) {
+    .FullstackCard {
+        height: auto;
+        width: auto;
+        border-radius: 20px;
+        padding: 1rem;
+    }
+
+    .FullstackCard h2 {
+        font-size: 25px;
+    }
+
+    .phone-icon {
+        font-size: 16px;
+    }
+
+    .phone-text,
+    .text-light {
+        font-size: 14px;
+    }
+
+    .circleImg {
+        display: none;
+    }
+
+    .courseCnt {
+        text-align: center;
+        margin: 0;
+    }
+
+    .DigitalCard {
+       
+        width: 100%;
+        border-radius: 20px;
+        padding: 1rem;
+        
+    }
+
+    .DigitalCard h2 {
+        font-size: 20px;
+    }
+
+    .DigitalCard ul {
+        font-size: 20px;
+    
+    }
+    .fullStackRight {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .accordion-item.customAccordion:not(.collapsing) .accordionBtn {
+        /* background-color: #35C1D5;
+        color: #fff; */
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 100%;
+    }
+
+    
+
+    .customAccordion {
+        background-color: #D0F1F4;
+        width: auto;
+    
+    }
+
+    
+}
+
+
+
+/* Default styles for all devices */
+
+/* Styles for devices with a maximum width of 768 pixels (tablets and smaller) */
+/* Default styles for all devices */
+
+/* Styles for devices with a maximum width of 768 pixels (tablets and smaller) */
+@media only screen and (max-width: 768px) {
+    .ReviewCard {
+        margin-bottom: 20px;
+        text-align: center; /* Adjust spacing between cards for smaller screens */
+    }
+    .ReviewText{
+        font-size: 25px;
+    }
+    .std {
+        text-align: center; /* Center both the image and text on smaller screens */
+    }
+
+    .std-img {
+        display: block;
+        margin: 0 auto; /* Center the image horizontally on smaller screens */
+        height: auto; /* Let the image scale proportionally for smaller screens */
+    }
+}
+
+
+
+
+@media (max-width: 1368px) and (min-width: 768px) {
+    .accordion-item.customAccordion:not(.collapsing) .accordionBtn {
+        /* background-color: #35C1D5;
+        color: #fff; */
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        width: 480px;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 768px) {
+    .accordion-item.customAccordion:not(.collapsing) .accordionBtn {
+        /* background-color: #35C1D5;
+        color: #fff; */
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        width: 580px;
+    }
+}
+
+@media (max-width: 1180px) and (min-width: 820px) {
+    .accordion-item.customAccordion:not(.collapsing) .accordionBtn {
+        /* background-color: #35C1D5;
+        color: #fff; */
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        width: 360px;
+    }
+}
+
+@media (max-width: 1366px) and (min-width: 1024px) {
+    .accordion-item.customAccordion:not(.collapsing) .accordionBtn {
+        /* background-color: #35C1D5;
+        color: #fff; */
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        width: 480px;
+    }
+}
+
+
+@media (max-width: 1280px) and (min-width: 800px) {
+    .accordion-item.customAccordion:not(.collapsing) .accordionBtn {
+        /* background-color: #35C1D5;
+        color: #fff; */
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        width: 580px;
+    }
+}
+
+
+@media (max-width: 1024px) and (min-width: 600px) {
+    .accordion-item.customAccordion:not(.collapsing) .accordionBtn {
+        /* background-color: #35C1D5;
+        color: #fff; */
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        width: 280px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .accordion-item.customAccordion:not(.collapsing) .accordionBtn {
+        /* background-color: #35C1D5;
+        color: #fff; */
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        width: 380px;
+    }
+}
+
+@media (max-width:1366px ) and (min-width: 1024px) {
+    .accordion-item.customAccordion:not(.collapsing) .accordionBtn {
+        /* background-color: #35C1D5;
+        color: #fff; */
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+        width: 480px;
+    }
+}
+
+

@@ -8,13 +8,16 @@
     padding: 5px;
 
 }
+
 .boyimg {
-    
-    background-size: cover; /* Ensure the background image covers the full width */
-    background-position: center; /* Center the background image */
+
+    background-size: cover;
+    /* Ensure the background image covers the full width */
+    background-position: center;
+    /* Center the background image */
     height: 550px;
-    
-    
+
+
     color: #000000;
 }
 
@@ -47,24 +50,29 @@
 
 
     .readmore {
-        margin-left: 85px; /* Set the margin for larger screens */
+        margin-left: 85px;
+        /* Set the margin for larger screens */
 
-    /* Center the button in mobile responsive views */
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-   
+        /* Center the button in mobile responsive views */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
     }
 }
 
 @media (max-width: 767px) {
-    .col-md-4{
+    .col-md-4 {}
 
-    }
-   
     .col-md-8 ul {
-      padding-left: 53px; 
+        padding-left: 53px;
     }
-  }
 
-  
+
+}
+
+@media only screen and (max-width: 768px) {
+    .bullet {
+        display: none !important;
+    }
+}

@@ -60,15 +60,15 @@
     height: 20px;
 }
 
-.FullstackCard2 {
+.SalesforceCard {
     background-color: #0097A4;
     border: 1px solid #0097A4;
     border-radius: 50px;
     width: 480px;
-    height: 550px;
+    height: 400px;
 }
 
-.FullstackCard2 ul {
+.SalesforceCard ul {
     font-size: 28px;
     font-weight: 600;
     line-height: 50px;
@@ -119,7 +119,7 @@
 /* For Tablets */
 @media (max-width: 1024px) {
     .FullstackCard,
-    .FullstackCard2 {
+    .SalesforceCard {
         max-width: 100%; /* Adjust the max-width for tablets */
     }
 
@@ -166,19 +166,19 @@
         margin: 0;
     }
 
-    .FullstackCard2 {
-        height: 100%;
+    .SalesforceCard {
+        /* height: 100%; */
         width: 100%;
         border-radius: 20px;
         padding: 1rem;
         
     }
 
-    .FullstackCard2 h2 {
+    .SalesforceCard h2 {
         font-size: 20px;
     }
 
-    .FullstackCard2 ul {
+    .SalesforceCard ul {
         font-size: 20px;
     
     }

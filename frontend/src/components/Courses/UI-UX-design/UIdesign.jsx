@@ -43,7 +43,7 @@ const UIdesign = () => {
 
         <div className='row'>
           <div className='col-md-6'>
-            <div className="accordion accordion-flush" id="accordionFlushExample">
+            <div className="accordion accordion-flush py-3" id="accordionFlushExample">
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingOne">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -197,49 +197,48 @@ const UIdesign = () => {
                                 </div>
                             </div>
                         </div> */}
-            <div className='fullStackRight'>
 
 
-              <div className='FullstackCard p-4 py-4'>
-                <div>
-                  <h2 className='text-light mx-4 mt-4'>Contact Us</h2>
-                </div>
-                <div className="d-flex align-items-center  py-2">
-                  <div className="bg-danger text-light rounded-circle  mx-4">
-                    <MdPhone size={20} className="phone-icon" />
-                  </div>
-                  <span className="mx-4 phone-text text-white">+91-9766861473</span>
-                  <div className="custom-vr mx-2"></div>
-                  <div className="mx-4 text-light">+91-9766861473</div>
-                </div>
-                <div className="d-flex align-items-center  py-2">
-                  <div className="bg-success text-light rounded-circle  mx-4">
-                    <FaWhatsapp size={20} className="phone-icon" />
-                  </div>
-                  <span className="mx-4 phone-text text-white">+91-9766861473</span>
-                  <div className="custom-vr mx-2"></div>
-                  <div className="mx-4 text-light">+91-9766861473</div>
-                </div>
+
+            <div className='FullstackCard p-4 py-4'>
+              <div>
+                <h2 className='text-light mx-4 mt-4'>Contact Us</h2>
               </div>
+              <div className="d-flex align-items-center  py-2">
+                <div className="bg-danger text-light rounded-circle  mx-4">
+                  <MdPhone size={20} className="phone-icon" />
+                </div>
+                <span className="mx-4 phone-text text-white">+91-9766861473</span>
+                <div className="custom-vr mx-2"></div>
+                <div className="mx-4 text-light">+91-9766861473</div>
+              </div>
+              <div className="d-flex align-items-center  py-2">
+                <div className="bg-success text-light rounded-circle  mx-4">
+                  <FaWhatsapp size={20} className="phone-icon" />
+                </div>
+                <span className="mx-4 phone-text text-white">+91-9766861473</span>
+                <div className="custom-vr mx-2"></div>
+                <div className="mx-4 text-light">+91-9766861473</div>
+              </div>
+            </div>
 
-              <div className='FullstackCard2 h-100 p-4 mt-4 py-4 '>
-                <div>
-                  <h2 className='text-light text-center mx-4 py-3'>
-                    BENEFITS OF THE <br />
-                    COURSE
-                  </h2>
-                </div>
-                <div>
-                  <ul>
-                    <li>Design Thinking Mastery</li>
-                    <li>Portfolio Development</li>
-                    <li>Industry-Ready Skills </li>
-                    <li>Collaborative Projects</li>
-                  </ul>
-                </div>
+            <div className='UiCard  p-4 mt-4 py-4 '>
+              <div>
+                <h2 className='text-light text-center mx-4 py-3'>
+                  BENEFITS OF THE COURSE
+                </h2>
+              </div>
+              <div>
+                <ul>
+                  <li>Design Thinking Mastery</li>
+                  <li>Portfolio Development</li>
+                  <li>Industry-Ready Skills </li>
+                  <li>Collaborative Projects</li>
+                </ul>
               </div>
             </div>
           </div>
+
         </div>
       </div>
       {/* Section 3 */}

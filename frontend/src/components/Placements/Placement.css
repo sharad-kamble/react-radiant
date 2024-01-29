@@ -38,7 +38,7 @@
   justify-content: center;
 }
 
-.content-wrapper {
+.custom-border {
   display: flex;
   align-items: center;
   text-align: center;
@@ -51,13 +51,27 @@
   /* Adjust padding as needed */
 }
 
+
 .inline-heading {
   margin-right: 10px;
   /* Adjust margin between heading and button */
   text-align: center;
 }
 
-.regnowbtn {
+/* .regnowbtn {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #5BD066;
+  background-color: #1F6D89;
+  color: #5BD066;
+  padding: 5px;
+  margin-left: 25px;
+  
+
+} */
+
+.register-btn {
   width: 200px;
   height: 50px;
   border-radius: 10px;
@@ -69,10 +83,15 @@
 
 }
 
-.regnowbtn:hover {
+.register-btn:hover {
   background-color: #fff;
   color: #5BD066;
 }
+
+/* .regnowbtn:hover {
+  background-color: #fff;
+  color: #5BD066;
+} */
 
 .inline-heading {
   margin-left: 170px;
@@ -84,26 +103,43 @@
   background-image: url('../../assets/images/circle1.png');
   background-size: cover;
   background-position: center;
-  
+
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  .register-btn {
+    margin-top: 20px;
+  }
+}
+
+
 
 
 @media only screen and (max-width: 600px) {
   .content-wrapper {
     width: 90%;
     margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+
   }
 
   .inline-heading {
     margin-left: 0;
     margin-right: 0;
-    
+    font-size: medium;
+
+
+
   }
 
-  .regnowbtn {
-    width: 100%;
+  /* .regnowbtn {
+    width: auto;
     margin: 15px 0;
-  }
+    
+  } */
 }
 
 

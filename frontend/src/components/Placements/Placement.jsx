@@ -120,7 +120,7 @@ const Placement = () => {
                   </div>
                 </div>
               </div> */}
-               <div className="col-md-6 mb-3">
+              <div className="col-md-6 mb-3">
                 <div className="placementcrd card" style={{ maxWidth: 540 }}>
                   <div className="row g-0">
                     <div className="placementimgs col-md-4">
@@ -134,7 +134,7 @@ const Placement = () => {
                       <div className="card-body">
                         <h5 className="card-title">Sujit Shukla</h5>
                         <p className="card-text">
-                        Name of Company - Datadynamx Pvt. Ltd.<br />
+                          Name of Company - Datadynamx Pvt. Ltd.<br />
                           Designation - Software testing
                         </p>
 
@@ -270,8 +270,7 @@ const Placement = () => {
 
 
 
-      <div className="container-fluid placementdrive" style={{marginTop: "200px"}}>
-
+      {/* <div className="container-fluid placementdrive" style={{marginTop: "200px"}}>
         <div className="row">
           <div className="container ">
             <div className="content-wrapper text-center">
@@ -281,6 +280,22 @@ const Placement = () => {
               </button>
             </div>
           </div>
+        </div>
+
+      </div> */}
+      <div className="container-fluid placementdrive" style={{ marginTop: "200px" }}>
+        <div className="container custom-border" >
+          <div className="row">
+            <div className="col-md-6">
+              <h4 className="inline-heading text-light">Want To Be Part of the next Placement drive</h4>
+            </div>
+            <div className="col-md-6 ">
+              <button type="submit" className="register-btn">
+                <strong>REGISTER NOW</strong>
+              </button>
+            </div>
+          </div>
+
         </div>
 
       </div>

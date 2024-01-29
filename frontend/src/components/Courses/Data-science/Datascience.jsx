@@ -31,7 +31,7 @@ const Datascience = () => {
         </div>
       </div>
       {/* Section 2 */}
-      <div className='container'>
+      <div className=' container '>
         <div className='row'>
           <div className='col-md-6 py-4'>
             <h3 className='abouth3 courseCnt'><strong>COURSE CONTENT</strong></h3>
@@ -351,7 +351,7 @@ const Datascience = () => {
             <div className='DatascienceCard  p-4 mt-4 py-4 '>
               <div>
                 <h2 className='text-light text-center mx-4 py-3'>
-                  BENEFITS OF THE <br />
+                  BENEFITS OF THE
                   COURSE
                 </h2>
               </div>

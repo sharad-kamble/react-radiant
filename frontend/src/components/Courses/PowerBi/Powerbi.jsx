@@ -42,24 +42,17 @@ const Powerbi = () => {
 
         <div className='row'>
           <div className='col-md-6'>
-            <div className="accordion accordion-flush" id="accordionFlushExample">
+            <div className="accordion accordion-flush my-3" id="accordionFlushExample">
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingOne">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <span className="plus-sign "> + </span> Python Basics
+                    <span className="plus-sign "> + </span>Introduction To Power BI
                   </button>
                 </h2>
                 <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                   <div className="accordion-body">
                     <ul>
-                      <li>Python History & Introduction</li>
-                      <li>Variables and its Rule</li>
-                      <li>Data Types: Numeric, Sequence, Boolean, Set, Dict</li>
-                      <li>Operators: Arithmatic, Logical, Assignement, Comparison, Membership, Identity, Bitwise</li>
-                      <li>Loops in Python: For, While</li>
-                      <li>Conditional Statements: if, elif, else</li>
-                      <li>Control Statements: Break, continue, pass</li>
-                      <li>Arrays</li>
+                      <li>A Microsoft tool for business analytics, enabling data visualization and analysis.</li>
                     </ul>
                   </div>
                 </div>
@@ -71,17 +64,19 @@ const Powerbi = () => {
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingTwo">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    <span className="plus-sign "> + </span> CSS
+                    <span className="plus-sign "> + </span> Data Import and Transformation
                   </button>
                 </h2>
                 <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                   <div className="accordion-body">
                     <ul>
-                      <li>Web Layout</li>
-                      <li>Marquee</li>
+                      <li>
+
+                        Effortlessly import data from various sources, including databases and cloud services. Power BI's robust connectivity options ensure seamless integration. Leverage Power Query for intuitive data transformation, cleaning, and shaping. The Query Editor provides a user-friendly interface for advanced tasks, allowing the creation of well-structured datasets. This process enhances data quality, enabling effective analysis and informed decision-making.</li>
+                      {/* <li>Marquee</li>
                       <li>Forms</li>
                       <li>Table</li>
-                      <li>Tag’s & Attributes</li>
+                      <li>Tag’s & Attributes</li> */}
                     </ul>
                   </div>
                 </div>
@@ -94,16 +89,18 @@ const Powerbi = () => {
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingThree">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    <span className="plus-sign "> + </span> JavaScript
+                    <span className="plus-sign "> + </span> Data Modeling with Relationships
                   </button>
                 </h2>
                 <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                   <div className="accordion-body">
                     <ul>
-                      <li>DOM Manipulation</li>
-                      <li>Event Handling</li>
+                      <li>
+
+                        Power BI enables efficient data modeling by establishing relationships between tables. This feature allows for a unified view, enhancing analysis and visualization of interconnected data points for more meaningful insights.</li>
+                      {/* <li>Event Handling</li>
                       <li>Ajax Requests</li>
-                      <li>ES6+ Features</li>
+                      <li>ES6+ Features</li> */}
                     </ul>
                   </div>
                 </div>
@@ -116,16 +113,18 @@ const Powerbi = () => {
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingFour">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                    <span className="plus-sign "> + </span> Bootstrap
+                    <span className="plus-sign "> + </span> Creating Visualisations
                   </button>
                 </h2>
                 <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                   <div className="accordion-body">
                     <ul>
-                      <li>Grid System</li>
-                      <li>Typography</li>
+                      <li>
+
+                        Power BI empowers users to create compelling visualizations effortlessly. With a diverse range of charts, graphs, and customizable elements, users can transform raw data into insightful and engaging visuals. This capability allows for the effective communication of data-driven insights, making complex information easily understandable and actionable.</li>
+                      {/* <li>Typography</li>
                       <li>Forms</li>
-                      <li>Components</li>
+                      <li>Components</li> */}
                     </ul>
                   </div>
                 </div>
@@ -138,16 +137,16 @@ const Powerbi = () => {
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingFive">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                    <span className="plus-sign "> + </span> WordPress
+                    <span className="plus-sign "> + </span> Power BI Dax (Data Analysis Expressions)
                   </button>
                 </h2>
                 <div id="flush-collapseFive" className="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                   <div className="accordion-body">
                     <ul>
-                      <li>Themes</li>
-                      <li>Plugins</li>
+                      <li>DAX, or Data Analysis Expressions, is a formula language in Power BI used for creating custom calculations and aggregations on data. It extends the capabilities of Power BI by allowing users to define sophisticated measures, calculated columns, and tables. DAX functions enable advanced analytics and manipulation of data, providing a powerful tool for transforming raw data into meaningful insights within Power BI reports and dashboards.</li>
+                      {/* <li>Plugins</li>
                       <li>Customization</li>
-                      <li>Posts and Pages</li>
+                      <li>Posts and Pages</li> */}
                     </ul>
                   </div>
                 </div>
@@ -160,16 +159,18 @@ const Powerbi = () => {
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingSix">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                    <span className="plus-sign "> + </span> Angular
+                    <span className="plus-sign "> + </span> Dashboard Design and Interactivity
                   </button>
                 </h2>
                 <div id="flush-collapseSix" className="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
                   <div className="accordion-body">
                     <ul>
-                      <li>Themes</li>
-                      <li>Plugins</li>
+                      <li>
+
+                        In Power BI, crafting visually appealing dashboards with interactive elements is key. Users can design dashboards by arranging visuals, charts, and KPIs in a meaningful layout. Power BI's interactive features enable users to drill down into specific details, filter data dynamically, and explore insights in real-time. This combination of thoughtful design and interactivity ensures that Power BI dashboards deliver a compelling and user-friendly experience, facilitating a deeper understanding of the underlying data.</li>
+                      {/* <li>Plugins</li>
                       <li>Customization</li>
-                      <li>Posts and Pages</li>
+                      <li>Posts and Pages</li> */}
                     </ul>
                   </div>
                 </div>
@@ -181,16 +182,18 @@ const Powerbi = () => {
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingSeven">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                    <span className="plus-sign "> + </span> Core Java
+                    <span className="plus-sign "> + </span> Power BI Service For Report Sharing
                   </button>
                 </h2>
                 <div id="flush-collapseSeven" className="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
                   <div className="accordion-body">
                     <ul>
-                      <li>Themes</li>
-                      <li>Plugins</li>
+                      <li>
+
+                        Power BI Service is a cloud platform allowing seamless sharing and collaboration on Power BI reports. Reports created in Power BI Desktop can be securely published and accessed via web browsers, ensuring real-time access for stakeholders and facilitating effective collaboration across teams.</li>
+                      {/* <li>Plugins</li>
                       <li>Customization</li>
-                      <li>Posts and Pages</li>
+                      <li>Posts and Pages</li> */}
                     </ul>
                   </div>
                 </div>
@@ -198,7 +201,7 @@ const Powerbi = () => {
             </div>
 
             {/* Eight */}
-            <div className="accordion accordion-flush py-3" id="accordionFlushExample">
+            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingEight">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
@@ -216,10 +219,10 @@ const Powerbi = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Nine */}
-            <div className="accordion accordion-flush py-3" id="accordionFlushExample">
+            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingNine">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
@@ -237,10 +240,10 @@ const Powerbi = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Ten */}
-            <div className="accordion accordion-flush py-3" id="accordionFlushExample">
+            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingTen">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
@@ -258,10 +261,10 @@ const Powerbi = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Eleven */}
-            <div className="accordion accordion-flush py-3" id="accordionFlushExample">
+            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingEleven">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
@@ -279,10 +282,10 @@ const Powerbi = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Twelve */}
-            <div className="accordion accordion-flush py-3" id="accordionFlushExample">
+            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingTwelve">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
@@ -300,9 +303,9 @@ const Powerbi = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* Thirteen */}
-            <div className="accordion accordion-flush py-3" id="accordionFlushExample">
+            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
               <div className="accordion-item customAccordion">
                 <h2 className="accordion-header" id="flush-headingThirteen">
                   <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
@@ -320,28 +323,10 @@ const Powerbi = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className='col-md-6'>
-
-            {/* <div className="card">
-                            <div className="card-body px-5">
-                                <div>
-                                    <h2 className=' mx-4 mt-4'>Contact Us</h2>
-                                </div>
-                                <div className="d-flex align-items-center py-2 mx-auto">
-                                    <div className="bg-danger text-light rounded-circle  mx-4">
-                                        <MdPhone size={20} className="phone-icon" />
-                                    </div>
-                                    <span className="phone-text">+91-9766861473</span>
-                                    <div className="vr mx-2"></div>
-                                    <div className="">+91-9766861473</div>
-                                </div>
-                            </div>
-                        </div> */}
-
-
 
             <div className='FullstackCard p-4 py-4'>
               <div>
@@ -368,7 +353,7 @@ const Powerbi = () => {
             <div className='PowerBiCard p-4 mt-4 py-3 '>
               <div>
                 <h2 className='text-light text-center mx-4 py-4'>
-                  BENEFITS OF THE 
+                  BENEFITS OF THE
                   COURSE
                 </h2>
               </div>

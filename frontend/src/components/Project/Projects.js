@@ -6,7 +6,19 @@ import AmanPatel from '../../assets/images/aman-patel.png';
 import AmanProject from '../../assets/images/aman-project.png';
 import KirtiAutade from '../../assets/images/kirti.png';
 import KirtiProject from '../../assets/images/kirti-project.png';
-import StudentGroup from '../../assets/images/Student-Group.png';
+import Jagruti from '../../assets/images/Jagruti.png';
+import Bhavika from '../../assets/images/Bhavika.png';
+import Priyanka from '../../assets/images/Priyanka.png';
+import Pratiksha from '../../assets/images/Pratiksha.png';
+import Bhavikaproject from '../../assets/images/Bhavikaproject.png';
+import Sangramproject from '../../assets/images/Sangramproject.png';
+import StudentGroup from '../../assets/images/StudentGroup.png';
+import Rushikeshproject from '../../assets/images/Rushikeshproject.png';
+import Jobportal from '../../assets/images/Jobportal.png';
+import Surajimg from '../../assets/images/Surajimg.png';
+import Akashimg from '../../assets/images/Akashimg.png';
+import Prashantimg from '../../assets/images/Prashantimg.png';
+
 
 
 
@@ -161,12 +173,12 @@ const Projects = () => {
                                     <div className="text-end TextEnd">
                                         {/* Student Photo */}
                                         <img
-                                            src={StudentGroup}
+                                            src={Jagruti}
                                             className="card-img-top CardImgTop mx-auto m-2"
                                             style={{ width: 78, height: 78, borderRadius: 40 }}
                                             alt="Student"
                                         />
-                                        <p className="" style={{ marginLeft: 20 }}>
+                                        <p className="ml-2" style={{ marginRight: "17px" }}>
                                             Jagruti
                                         </p>
                                     </div>
@@ -175,36 +187,36 @@ const Projects = () => {
                                     <div className="text-start TextStart">
                                         {/* Student Photo */}
                                         <img
-                                            src={StudentGroup}
+                                            src={Bhavika}
                                             className="card-img-top  CardImgTop mx-auto m-2"
                                             style={{ width: 75, height: 75, borderRadius: 40 }}
                                             alt="Student"
                                         />
-                                        <p className="">Bhavika</p>
+                                        <p className="" style={{ marginLeft: "10px" }}>Bhavika</p>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="text-end TextEnd">
                                         {/* Student Photo */}
                                         <img
-                                            src={StudentGroup}
+                                            src={Priyanka}
                                             className="card-img-top CardImgTop mx-auto m-2"
                                             style={{ width: 75, height: 75, borderRadius: 40 }}
                                             alt="Student"
                                         />
-                                        <p className="">Priyanka</p>
+                                        <p className="" style={{ marginRight: "8px" }}>Priyanka</p>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="text-start TextStart">
                                         {/* Student Photo */}
                                         <img
-                                            src={StudentGroup}
+                                            src={Pratiksha}
                                             className="card-img-top CardImgTop mx-auto m-2"
                                             style={{ width: 75, height: 75, borderRadius: 40 }}
                                             alt="Student"
                                         />
-                                        <p className="">Pratiksha</p>
+                                        <p className="" style={{ marginLeft: "10px" }}>Pratiksha</p>
                                     </div>
                                 </div>
                             </div>
@@ -232,7 +244,7 @@ const Projects = () => {
                             </p>
                             {/* Project Image */}
                             <img
-                                src={KirtiProject}
+                                src={Bhavikaproject}
                                 className="card-img-top mx-auto w-100 mb-2"
                                 alt="Project 1"
                             />
@@ -358,7 +370,7 @@ const Projects = () => {
                         >
                             {/* Student Photo */}
                             <img
-                                src={AmanPatel}
+                                src={StudentGroup}
                                 className="card-img-top mx-auto m-2"
                                 style={{ width: 150, height: 150, borderRadius: 75 }}
                                 alt="Student"
@@ -375,7 +387,7 @@ const Projects = () => {
                                         lineHeight: "normal"
                                     }}
                                 >
-                                    <strong>Aman Patel</strong>
+                                    <strong>Sangram Wagh</strong>
                                 </h6>
                                 <p>Full Stack Developement</p>
                             </div>
@@ -398,11 +410,11 @@ const Projects = () => {
                                     lineHeight: "normal"
                                 }}
                             >
-                                Sports club website
+                                Medical-health store website
                             </p>
                             {/* Project Image */}
                             <img
-                                src={AmanProject}
+                                src={Sangramproject}
                                 className="card-img-top mx-auto mb-2"
                                 alt="Project 1"
                             />
@@ -416,13 +428,12 @@ const Projects = () => {
                             </ul>
                             <div className="card-body">
                                 <p className="card-text text-center" style={{ fontSize: 14 }}>
-                                    Using HTML , CSS and bootstrap framework Aman Patel created this dynamic
-                                    Sports Club website, where passion meets precision.
+                                    Using HTML , CSS and bootstrap framework sangram wagh created this dynamic Medical-health store website, where passion meets precision.
                                 </p>
                                 {/* VIEW PROJECT Button */}
                                 <div className="text-center">
                                     <Link
-                                        to="https://radiantitservicespvtltd.github.io/sports-club-website/"
+                                        to="https://radiantitservicespvtltd.github.io/medical-web-project/"
                                         target="_blank"
                                         className="btn btn-primary"
                                         style={{ backgroundColor: "#025978" }}
@@ -446,13 +457,13 @@ const Projects = () => {
                                     <div className="text-end TextEnd">
                                         {/* Student Photo */}
                                         <img
-                                            src={StudentGroup}
-                                            className="card-img-top mx-auto m-2"
+                                            src={Surajimg}
+                                            className="card-img-top CardImgTop mx-auto m-2"
                                             style={{ width: 78, height: 78, borderRadius: 40 }}
                                             alt="Student"
                                         />
-                                        <p className="" style={{ marginLeft: 20 }}>
-                                            Jagruti
+                                        <p className="ml-2" style={{ marginRight: "19px" }}>
+                                            Suraj
                                         </p>
                                     </div>
                                 </div>
@@ -460,36 +471,36 @@ const Projects = () => {
                                     <div className="text-start TextStart">
                                         {/* Student Photo */}
                                         <img
-                                            src={StudentGroup}
-                                            className="card-img-top mx-auto m-2"
+                                            src={Prashantimg}
+                                            className="card-img-top  CardImgTop mx-auto m-2"
                                             style={{ width: 75, height: 75, borderRadius: 40 }}
                                             alt="Student"
                                         />
-                                        <p className="">Bhavika</p>
+                                        <p className="" style={{ marginLeft: "10px" }}>Prashant</p>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="text-end TextEnd">
                                         {/* Student Photo */}
                                         <img
-                                            src={StudentGroup}
-                                            className="card-img-top mx-auto m-2"
+                                            src={Akashimg}
+                                            className="card-img-top CardImgTop mx-auto m-2"
                                             style={{ width: 75, height: 75, borderRadius: 40 }}
                                             alt="Student"
                                         />
-                                        <p className="">Priyanka</p>
+                                        <p className="" style={{ marginRight: "8px" }}>Akash</p>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="text-start TextStart">
                                         {/* Student Photo */}
                                         <img
-                                            src={StudentGroup}
-                                            className="card-img-top mx-auto m-2"
+                                            src={Akashimg}
+                                            className="card-img-top CardImgTop mx-auto m-2"
                                             style={{ width: 75, height: 75, borderRadius: 40 }}
                                             alt="Student"
                                         />
-                                        <p className="">Pratiksha</p>
+                                        <p className="" style={{ marginLeft: "10px" }}>Akash</p>
                                     </div>
                                 </div>
                             </div>
@@ -513,11 +524,11 @@ const Projects = () => {
                                     lineHeight: "normal"
                                 }}
                             >
-                                Quiz Application
+                                Job Portal Website
                             </p>
                             {/* Project Image */}
                             <img
-                                src={KirtiProject}
+                                src={Jobportal}
                                 className="card-img-top mx-auto w-100 mb-2"
                                 alt="Project 1"
                             />
@@ -531,12 +542,12 @@ const Projects = () => {
                             </ul>
                             <div className="card-body">
                                 <p className="card-text text-center" style={{ fontSize: 14 }}>
-                                    Techstack : HTML , CSS, Bootstrap, Angular
+                                    Techstack : HTML , CSS, Javascript, Bootstrap
                                 </p>
                                 {/* VIEW PROJECT Button */}
                                 <div className="text-center">
                                     <Link
-                                        to="https://developyourmind-2af71.web.app/welcome"
+                                        to="https://radiantitservicespvtltd.github.io/job-portal/"
                                         target="_blank"
                                         className="btn btn-primary"
                                         style={{ backgroundColor: "#025978" }}
@@ -557,7 +568,7 @@ const Projects = () => {
                         >
                             {/* Student Photo */}
                             <img
-                                src={KirtiAutade}
+                                src={StudentGroup}
                                 className="card-img-top mx-auto m-2 "
                                 style={{ width: 150, height: 150, borderRadius: 75 }}
                                 alt="Student"
@@ -574,7 +585,94 @@ const Projects = () => {
                                         lineHeight: "normal"
                                     }}
                                 >
-                                    <strong>Kirti Autade</strong>
+                                    <strong>Rushikesh Bihade</strong>
+                                </h6>
+                                <p>Frontend Developement</p>
+                            </div>
+                            <ul className="list-group list-group-flush">
+                                <li
+                                    className="list-group-item text-center text-white d-flex align-items-center justify-content-center"
+                                    style={{ backgroundColor: "#0097A4", height: 30 }}
+                                >
+                                    <strong>PROJECT TITLE</strong>
+                                </li>
+                            </ul>
+                            <p
+                                className=" text-center m-1 "
+                                style={{
+                                    color: "#000",
+                                    fontFamily: '"Inter"',
+                                    fontSize: 16,
+                                    fontStyle: "normal",
+                                    fontWeight: 500,
+                                    lineHeight: "normal"
+                                }}
+                            >
+                                College Database Managment System
+                            </p>
+                            {/* Project Image */}
+                            <img
+                                src={Rushikeshproject}
+                                className="card-img-top mx-auto mb-2"
+                                alt="Project 1"
+                            />
+                            <ul className="list-group list-group-flush">
+                                <li
+                                    className="list-group-item text-center text-white d-flex align-items-center justify-content-center"
+                                    style={{ backgroundColor: "#0097A4", height: 30 }}
+                                >
+                                    <strong>ABOUT PROJECT</strong>
+                                </li>
+                            </ul>
+                            <div className="card-body">
+                                <p className="card-text text-center" style={{ fontSize: 14 }}>
+                                    Using HTML , CSS and bootstrap framework Kirti Autade created this
+                                    dynamic school website, where passion meets precision.
+                                </p>
+                                {/* VIEW PROJECT Button */}
+                                <div className="text-center">
+                                    <Link
+                                        to="https://radiantitservicespvtltd.github.io/cdbs/"
+                                        target="_blank"
+                                        className="btn btn-primary"
+                                        style={{ backgroundColor: "#025978" }}
+                                    >
+                                        VIEW PROJECT
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                
+                <div className='row mt-5'>
+                    <div className="col-md-4 mb-4">
+                        <div
+                            className="card project-card shadow-sm h-100"
+                            style={{ backgroundColor: "#D0F1F4", borderRadius: 39 }}
+                        >
+                            {/* Student Photo */}
+                            <img
+                                src={StudentGroup}
+                                className="card-img-top mx-auto m-2"
+                                style={{ width: 150, height: 150, borderRadius: 75 }}
+                                alt="Student"
+                            />
+                            <div className="text-center mt-1">
+                                <h6
+                                    className=""
+                                    style={{
+                                        color: "#000",
+                                        fontFamily: '"Inter"',
+                                        fontSize: 29,
+                                        fontStyle: "normal",
+                                        fontWeight: 700,
+                                        lineHeight: "normal"
+                                    }}
+                                >
+                                    <strong>Vaibhavi Magar</strong>
                                 </h6>
                                 <p>Full Stack Developement</p>
                             </div>
@@ -597,11 +695,209 @@ const Projects = () => {
                                     lineHeight: "normal"
                                 }}
                             >
-                                School website
+                                Medical-health store website
                             </p>
                             {/* Project Image */}
                             <img
-                                src={KirtiProject}
+                                src={Sangramproject}
+                                className="card-img-top mx-auto mb-2"
+                                alt="Project 1"
+                            />
+                            <ul className="list-group list-group-flush">
+                                <li
+                                    className="list-group-item text-center text-white d-flex align-items-center justify-content-center"
+                                    style={{ backgroundColor: "#0097A4", height: 30 }}
+                                >
+                                    <strong>ABOUT PROJECT</strong>
+                                </li>
+                            </ul>
+                            <div className="card-body">
+                                <p className="card-text text-center" style={{ fontSize: 14 }}>
+                                    Using HTML , CSS and bootstrap framework sangram wagh created this dynamic Medical-health store website, where passion meets precision.
+                                </p>
+                                {/* VIEW PROJECT Button */}
+                                <div className="text-center">
+                                    <Link
+                                        to="https://radiantitservicespvtltd.github.io/medical-web-project/"
+                                        target="_blank"
+                                        className="btn btn-primary"
+                                        style={{ backgroundColor: "#025978" }}
+                                    >
+                                        VIEW PROJECT
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* card 2 */}
+
+                    <div className="col-md-4 mb-4">
+                        <div
+                            className="card project-card shadow-sm h-100"
+                            style={{ backgroundColor: "#D0F1F4", borderRadius: 39 }}
+                        >
+                            {/* Student Photo */}
+                            <div className="row p-1">
+                                <div className="col-md-6">
+                                    <div className="text-end TextEnd">
+                                        {/* Student Photo */}
+                                        <img
+                                            src={Surajimg}
+                                            className="card-img-top CardImgTop mx-auto m-2"
+                                            style={{ width: 78, height: 78, borderRadius: 40 }}
+                                            alt="Student"
+                                        />
+                                        <p className="ml-2" style={{ marginRight: "19px" }}>
+                                            Suraj
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="text-start TextStart">
+                                        {/* Student Photo */}
+                                        <img
+                                            src={Prashantimg}
+                                            className="card-img-top  CardImgTop mx-auto m-2"
+                                            style={{ width: 75, height: 75, borderRadius: 40 }}
+                                            alt="Student"
+                                        />
+                                        <p className="" style={{ marginLeft: "10px" }}>Prashant</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="text-end TextEnd">
+                                        {/* Student Photo */}
+                                        <img
+                                            src={Akashimg}
+                                            className="card-img-top CardImgTop mx-auto m-2"
+                                            style={{ width: 75, height: 75, borderRadius: 40 }}
+                                            alt="Student"
+                                        />
+                                        <p className="" style={{ marginRight: "8px" }}>Akash</p>
+                                    </div>
+                                </div>
+                                <div className="col-md-6">
+                                    <div className="text-start TextStart">
+                                        {/* Student Photo */}
+                                        <img
+                                            src={Akashimg}
+                                            className="card-img-top CardImgTop mx-auto m-2"
+                                            style={{ width: 75, height: 75, borderRadius: 40 }}
+                                            alt="Student"
+                                        />
+                                        <p className="" style={{ marginLeft: "10px" }}>Akash</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p className="text-center">Full stack development</p>
+                            <ul className="list-group list-group-flush">
+                                <li
+                                    className="list-group-item text-center text-white d-flex align-items-center justify-content-center"
+                                    style={{ backgroundColor: "#0097A4", height: 30 }}
+                                >
+                                    <strong>PROJECT TITLE</strong>
+                                </li>
+                            </ul>
+                            <p
+                                className=" text-center m-1"
+                                style={{
+                                    color: "#000",
+                                    fontFamily: '"Inter"',
+                                    fontSize: 16,
+                                    fontStyle: "normal",
+                                    fontWeight: 500,
+                                    lineHeight: "normal"
+                                }}
+                            >
+                                Job Portal Website
+                            </p>
+                            {/* Project Image */}
+                            <img
+                                src={Jobportal}
+                                className="card-img-top mx-auto w-100 mb-2"
+                                alt="Project 1"
+                            />
+                            <ul className="list-group list-group-flush">
+                                <li
+                                    className="list-group-item text-center text-white d-flex align-items-center justify-content-center"
+                                    style={{ backgroundColor: "#0097A4", height: 30 }}
+                                >
+                                    <strong>ABOUT PROJECT</strong>
+                                </li>
+                            </ul>
+                            <div className="card-body">
+                                <p className="card-text text-center" style={{ fontSize: 14 }}>
+                                    Techstack : HTML , CSS, Javascript, Bootstrap
+                                </p>
+                                {/* VIEW PROJECT Button */}
+                                <div className="text-center">
+                                    <Link
+                                        to="https://radiantitservicespvtltd.github.io/job-portal/"
+                                        target="_blank"
+                                        className="btn btn-primary"
+                                        style={{ backgroundColor: "#025978" }}
+                                    >
+                                        VIEW PROJECT
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Card 3 */}
+
+                    <div className="col-md-4 mb-4">
+                        <div
+                            className="card project-card shadow-sm h-100"
+                            style={{ backgroundColor: "#D0F1F4", borderRadius: 39 }}
+                        >
+                            {/* Student Photo */}
+                            <img
+                                src={StudentGroup}
+                                className="card-img-top mx-auto m-2 "
+                                style={{ width: 150, height: 150, borderRadius: 75 }}
+                                alt="Student"
+                            />
+                            <div className="text-center mt-1">
+                                <h6
+                                    className=""
+                                    style={{
+                                        color: "#000",
+                                        fontFamily: '"Inter"',
+                                        fontSize: 29,
+                                        fontStyle: "normal",
+                                        fontWeight: 700,
+                                        lineHeight: "normal"
+                                    }}
+                                >
+                                    <strong>Candidates name</strong>
+                                </h6>
+                                <p>Frontend Developement</p>
+                            </div>
+                            <ul className="list-group list-group-flush">
+                                <li
+                                    className="list-group-item text-center text-white d-flex align-items-center justify-content-center"
+                                    style={{ backgroundColor: "#0097A4", height: 30 }}
+                                >
+                                    <strong>PROJECT TITLE</strong>
+                                </li>
+                            </ul>
+                            <p
+                                className=" text-center m-1 "
+                                style={{
+                                    color: "#000",
+                                    fontFamily: '"Inter"',
+                                    fontSize: 16,
+                                    fontStyle: "normal",
+                                    fontWeight: 500,
+                                    lineHeight: "normal"
+                                }}
+                            >
+                                College Database Managment System
+                            </p>
+                            {/* Project Image */}
+                            <img
+                                src={Rushikeshproject}
                                 className="card-img-top mx-auto mb-2"
                                 alt="Project 1"
                             />
@@ -621,7 +917,7 @@ const Projects = () => {
                                 {/* VIEW PROJECT Button */}
                                 <div className="text-center">
                                     <Link
-                                        to="https://radiantitservicespvtltd.github.io/school-website/"
+                                        to="https://radiantitservicespvtltd.github.io/cdbs/"
                                         target="_blank"
                                         className="btn btn-primary"
                                         style={{ backgroundColor: "#025978" }}
@@ -632,6 +928,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+                    
 
                 </div>
             </div>
@@ -642,7 +939,7 @@ const Projects = () => {
                 <div className="row">
                     <div className="container ">
                         <div className="content-wrapper text-center">
-                            <h4 className="inline-heading text-center text-light">Join Employability Edge <br/> For Bright Future</h4>
+                            <h4 className="inline-heading text-center text-light">Join Employability Edge <br /> For Bright Future</h4>
                             <button type="submit" className="regnowbtn">
                                 <strong>REGISTER NOW</strong>
                             </button>

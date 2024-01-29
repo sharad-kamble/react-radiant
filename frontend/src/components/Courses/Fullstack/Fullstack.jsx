@@ -9,6 +9,7 @@ import StudentReview from "../../.././assets/images/StudentReview.png";
 import VaishnaviGangawane from "../../../assets/images/VaishnaviGangawane.png"
 import RahulDhepe from "../../../assets/images/RahulDhepe.png"
 import ShraddhaAntad from "../../../assets/images/ShraddhaAntad.png"
+import Contactellips from "../../../assets/images/Contactellips.png"
 
 
 const Courses = () => {
@@ -32,7 +33,7 @@ const Courses = () => {
       </div>
 
       {/* Section 2 */}
-      <div className='container'>
+      <div className='container' >
         <div className='row'>
           <div className='col-md-6 py-4'>
             <h3 className='abouth3 courseCnt'><strong>COURSE CONTENT</strong></h3>
@@ -460,10 +461,7 @@ const Courses = () => {
             </div>
           </div>
 
-
           <div className='col-md-6'>
-
-
 
             <div className='FullstackCard p-4 py-4'>
               <div>
@@ -490,7 +488,7 @@ const Courses = () => {
             <div className='FullstackCard2 p-4 mt-4 py-4 '>
               <div>
                 <h2 className='text-light text-center mx-4 py-3'>
-                  BENEFITS OF THE <br />
+                  BENEFITS OF THE
                   COURSE
                 </h2>
               </div>
@@ -510,6 +508,9 @@ const Courses = () => {
       </div>
 
       {/* Section 3 */}
+      <div className="container">
+        <img src={ Contactellips }  alt="" />
+      </div>
 
       <div className='container-fluid fullstackCourseDetail'>
         <div className='container fullstackCrsDetail mt-5'>

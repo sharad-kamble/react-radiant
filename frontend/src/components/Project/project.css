@@ -6,7 +6,7 @@
     background-color: #35C1D5;
 }
 
-.placementdrive {
+/* .placementdrive {
     background-color: #1F6D89;
     height: 300px;
     display: flex;
@@ -20,19 +20,23 @@
     align-items: center;
     text-align: center;
     border: 2px solid #5BD066;
-    /* Common border color */
+ 
     padding: 10px;
     height: 200px;
     width: 900px;
     border-radius: 20px;
-    /* Adjust padding as needed */
-}
+  
+} */
 
+
+/* 
 .inline-heading {
     margin-right: 10px;
-    /* Adjust margin between heading and button */
+
     text-align: center;
-}
+} */
+
+
 
 .regnowbtn {
     width: 200px;
@@ -56,12 +60,41 @@
 
 }
 
+.job-card {
+    text-align: end;
+}
+.school-txt{
+    margin-right: 25px;
+}
 
 @media only screen and (max-width: 600px) {
-    .content-wrapper {
+    .school-img {
+        margin: 0 auto;
+        display: block;
+        height: auto;
+    }
+
+    .school-txt {
+        text-align: center !important;
+        margin-right: 22px;
+        margin-left: 22px;
+        
+    }
+    .priyanka{
+        margin-left: 60px;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    /* .content-wrapper {
         width: 90%;
         margin: 0 auto;
-    }
+    } */
 
     .inline-heading {
         margin-left: 0;
@@ -79,11 +112,11 @@
     .CardImgTop {
         margin: 0 auto;
         display: block;
-        height: 80px;
+        height: auto;
     }
 
     .TextEnd,
     .TextStart {
-        text-align: center !important; 
+        text-align: center !important;
     }
 }

@@ -270,19 +270,6 @@ const Placement = () => {
 
 
 
-      {/* <div className="container-fluid placementdrive" style={{marginTop: "200px"}}>
-        <div className="row">
-          <div className="container ">
-            <div className="content-wrapper text-center">
-              <h4 className="inline-heading text-center text-light">Want To Be Part of <br />the next Placement drive</h4>
-              <button type="submit" className="regnowbtn">
-                <strong>REGISTER NOW</strong>
-              </button>
-            </div>
-          </div>
-        </div>
-
-      </div> */}
       <div className="container-fluid placementdrive" style={{ marginTop: "200px" }}>
         <div className="container custom-border" >
           <div className="row">

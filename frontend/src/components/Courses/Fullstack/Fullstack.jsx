@@ -508,9 +508,9 @@ const Courses = () => {
       </div>
 
       {/* Section 3 */}
-      <div className="container">
+      {/* <div className="container">
         <img src={ Contactellips }  alt="" />
-      </div>
+      </div> */}
 
       <div className='container-fluid fullstackCourseDetail'>
         <div className='container fullstackCrsDetail mt-5'>

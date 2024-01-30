@@ -6,9 +6,12 @@ import { FaWhatsapp } from "react-icons/fa6";
 import CourseFeature from "../../../assets/images/CourseFeature.png";
 import CourseDurationDatasci from "../../../assets/images/CourseDurationDatasci.png";
 // import StudentReview from "../../.././assets/images/StudentReview.png";
-import VaishnaviGangawane from "../../../assets/images/VaishnaviGangawane.png"
-import RahulDhepe from "../../../assets/images/RahulDhepe.png"
-import ShraddhaAntad from "../../../assets/images/ShraddhaAntad.png"
+// import VaishnaviGangawane from "../../../assets/images/VaishnaviGangawane.png"
+// import RahulDhepe from "../../../assets/images/RahulDhepe.png"
+// import ShraddhaAntad from "../../../assets/images/ShraddhaAntad.png"
+import Pritidatasci from "../../../assets/images/Pritidatasci.png"
+import Rohitdatasci from "../../../assets/images/Rohitdatasci.png"
+import Vrushalidatasci from "../../../assets/images/Vrushalidatasci.png"
 const Datascience = () => {
   return (
     <div>
@@ -463,15 +466,14 @@ const Datascience = () => {
                 <div className="row">
                   <div className='std col-md-6 text-end'>
                     <img
-                      src={VaishnaviGangawane}
+                      src={Vrushalidatasci}
                       className="std-img img-fluid rounded-circle mt-3"
                       style={{ height: "125px" }} alt="Profile Image"
                     />
                   </div>
                   <div className='col-md-6 col-sm-6 mt-4 text-left'>
                     <div className="rating">
-                      <h5 className="card-title mt-2">Vaishnavi
-                        Gangawane</h5>
+                      <h5 className="card-title mt-2">Vrushali <br/>Nannaware</h5>
                       <div className='ReviewRating'>
                         <span className="star star-yellow">&#9733;</span>
                         <span className="star star-yellow">&#9733;</span>
@@ -501,14 +503,14 @@ const Datascience = () => {
                 <div className="row">
                   <div className='std col-md-6 text-end'>
                     <img
-                      src={ShraddhaAntad}
+                      src={Pritidatasci}
                       className="std-img img-fluid rounded-circle mt-3"
                       style={{ height: "125px" }} alt="Profile Image"
                     />
                   </div>
                   <div className='col-md-6 col-sm-6 mt-4 text-left'>
                     <div className="rating">
-                      <h5 className="card-title mt-2">Shraddha Antad</h5>
+                      <h5 className="card-title mt-2">Priti Jagtap</h5>
                       <div className='ReviewRating'>
                         <span className="star star-yellow">&#9733;</span>
                         <span className="star star-yellow">&#9733;</span>
@@ -537,14 +539,14 @@ const Datascience = () => {
                 <div className="row">
                   <div className='std col-md-6 text-end'>
                     <img
-                      src={RahulDhepe}
+                      src={Rohitdatasci}
                       className="std-img img-fluid rounded-circle mt-3"
                       style={{ height: "125px" }} alt="Profile Image"
                     />
                   </div>
                   <div className='col-md-6 col-sm-6 mt-4 text-left'>
                     <div className="rating">
-                      <h5 className="card-title mt-2">Rahul Dhepe</h5>
+                      <h5 className="card-title mt-2">Rohit Male</h5>
                       <div className='ReviewRating'>
                         <span className="star star-yellow">&#9733;</span>
                         <span className="star star-yellow">&#9733;</span>

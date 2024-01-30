@@ -5,6 +5,8 @@ import Whyus from '../../assets/images/Whyus.png';
 import aboutUs6 from '../../assets/images/aboutus6.png';
 import aboutUs4 from '../../assets/images/powerbi.png';
 import aboutUs5 from '../../assets/images/salesforce.png';
+import Aboutleftimg from '../../assets/images/Aboutleftimg.png';
+
 
 const About = () => {
   return (
@@ -66,7 +68,7 @@ const About = () => {
       </div>
 
       {/* section 4 */}
-      <div className='container'>
+      <div className='container mb-5'>
         <div className='row'>
           <h3 className='text-center py-5 abouth3'>
             <strong>
@@ -82,21 +84,21 @@ const About = () => {
           </div>
           <div className='col-md-6 aboutImg text-center'>
             <img src={aboutUs} className='img-fluid mx-auto d-block' style={{ height: "300px", width: "500px" }} />
-            <h4 className='py-3'><strong>ADD VIDEO</strong></h4>
+            {/* <h4 className='py-3'><strong>ADD VIDEO</strong></h4> */}
           </div>
         </div>
 
         <div className='row'>
           <div className='col-md-6 aboutImg text-center'>
-            <img src={aboutUs4} className='img-fluid mx-auto d-block' style={{ height: "300px", width: "500px" }} />
-            <h4 className='py-3'><strong>ADD IMAGE</strong></h4>
+            <img src={Aboutleftimg} className='img-fluid mx-auto d-block' style={{ height: "300px", width: "500px" }} />
+            {/* <h4 className='py-3'><strong>ADD IMAGE</strong></h4> */}
             <img src={aboutUs5} className='img-fluid mx-auto mt-5 d-block' style={{ height: "300px", width: "500px" }} />
-            <h4 className='py-3'><strong>ADD IMAGE</strong></h4>
+            {/* <h4 className='py-3'><strong>ADD IMAGE</strong></h4> */}
           </div>
 
           <div className='col-md-6 aboutImg text-center'>
             <img src={aboutUs6} className='img-fluid mx-auto mt-5 d-block' style={{ height: "600px" }} />
-            <h4 className='py-3'><strong>ADD IMAGE</strong></h4>
+            {/* <h4 className='py-3'><strong>ADD IMAGE</strong></h4> */}
           </div>
         </div>
       </div>

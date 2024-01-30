@@ -6,9 +6,12 @@ import { FaWhatsapp } from "react-icons/fa6";
 import CourseFeature from "../../../assets/images/CourseFeature.png";
 import CourseDurationWebdev from "../../../assets/images/CourseDurationWebdev.png";
 // import StudentReview from "../../.././assets/images/StudentReview.png";
-import VaishnaviGangawane from "../../../assets/images/VaishnaviGangawane.png"
-import RahulDhepe from "../../../assets/images/RahulDhepe.png"
-import ShraddhaAntad from "../../../assets/images/ShraddhaAntad.png"
+// import VaishnaviGangawane from "../../../assets/images/VaishnaviGangawane.png"
+// import RahulDhepe from "../../../assets/images/RahulDhepe.png"
+// import ShraddhaAntad from "../../../assets/images/ShraddhaAntad.png"
+import Poojaweb from "../../../assets/images/Poojaweb.png"
+import Sapnaweb from "../../../assets/images/Sapnaweb.png"
+import Nikitaweb from "../../../assets/images/Nikitaweb.png"
 const Webdevelopment = () => {
   return (
     <div>
@@ -434,15 +437,15 @@ const Webdevelopment = () => {
                 <div className="row">
                   <div className='std col-md-6 text-end'>
                     <img
-                      src={VaishnaviGangawane}
+                      src={Poojaweb}
                       className="std-img img-fluid rounded-circle mt-3"
                       style={{ height: "125px" }} alt="Profile Image"
                     />
                   </div>
                   <div className='col-md-6 col-sm-6 mt-4 text-left'>
                     <div className="rating">
-                      <h5 className="card-title mt-2">Vaishnavi
-                        Gangawane</h5>
+                      <h5 className="card-title mt-2">Pooja Dhingra
+                        </h5>
                       <div className='ReviewRating'>
                         <span className="star star-yellow">&#9733;</span>
                         <span className="star star-yellow">&#9733;</span>
@@ -471,14 +474,14 @@ const Webdevelopment = () => {
                 <div className="row">
                   <div className='std col-md-6 text-end'>
                     <img
-                      src={ShraddhaAntad}
+                      src={Sapnaweb}
                       className="std-img img-fluid rounded-circle mt-3"
                       style={{ height: "125px" }} alt="Profile Image"
                     />
                   </div>
                   <div className='col-md-6 col-sm-6 mt-4 text-left'>
                     <div className="rating">
-                      <h5 className="card-title mt-2">Shraddha Antad</h5>
+                      <h5 className="card-title mt-2">Sapna Mahajan</h5>
                       <div className='ReviewRating'>
                         <span className="star star-yellow">&#9733;</span>
                         <span className="star star-yellow">&#9733;</span>
@@ -507,14 +510,14 @@ const Webdevelopment = () => {
                 <div className="row">
                   <div className='std col-md-6 text-end'>
                     <img
-                      src={RahulDhepe}
+                      src={Nikitaweb}
                       className="std-img img-fluid rounded-circle mt-3"
                       style={{ height: "125px" }} alt="Profile Image"
                     />
                   </div>
                   <div className='col-md-6 col-sm-6 mt-4 text-left'>
                     <div className="rating">
-                      <h5 className="card-title mt-2">Rahul Dhepe</h5>
+                      <h5 className="card-title mt-2">Nikita patil</h5>
                       <div className='ReviewRating'>
                         <span className="star star-yellow">&#9733;</span>
                         <span className="star star-yellow">&#9733;</span>

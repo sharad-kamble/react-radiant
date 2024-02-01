@@ -85,7 +85,7 @@ const Placement = () => {
                       <div className="card-body">
                         <h5 className="card-title">Akash Dilwale</h5>
                         <p className="card-text">
-                          Name of Company - Manlitics B2B ITES
+                          Name of Company - Manlitics B2B ITES<br/>
                           Designation - Web Developer
                         </p>
 

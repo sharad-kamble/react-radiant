@@ -132,7 +132,7 @@ const About = () => {
             </div>
             <div className='col-md-6 aboutImg text-center'>
               <img src={Whyus} alt="About Us Image" className='img-fluid mx-auto py-4 d-block' style={{ height: "300px", width: "400px" }} />
-              <h4 className='text-white'><strong>ADD VIDEO</strong></h4>
+              {/* <h4 className='text-white'><strong>ADD VIDEO</strong></h4> */}
             </div>
           </div>
 

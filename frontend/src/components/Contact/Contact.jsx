@@ -4,6 +4,7 @@ import { MdEmail, MdPhone } from 'react-icons/md';
 import Gmail from '../../assets/images/Gmail.png'
 import Phone from '../../assets/images/Phone.png'
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -12,6 +13,11 @@ const Contact = () => {
 
   return (
     <div className="container mt-5">
+      <Helmet>
+        <title>Contact Us </title>
+        <meta name="description" content="Radiant IT Services Pvt Ltd | Best IT training company in Kharadi, Pune | With 100% Job Guarantee we provide the best IT courses in Pune." />
+        <meta name="keywords" content="online it certification programs, front-end web development course, Best IT Training Institute, best software training institutes in pune, software training institutes" />
+      </Helmet>
       <h2 className="text-left getInTouch">GET IN TOUCH</h2>
       <div className="row justify-content-center mt-4">
 

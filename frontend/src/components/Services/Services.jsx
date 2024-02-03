@@ -5,6 +5,7 @@ import WebDevServices from '../../assets/images/WebDevServices.png'
 // import digitalMrkSer from "../../assets/images/digitalMrkSer.png"
 import GraphicDesignSer from "../../assets/images/GraphicDesignSer.png";
 import BillingSoftware from "../../assets/images/BillingSoftware.png"
+import { Helmet } from 'react-helmet';
 
 
 const Services = () => {
@@ -24,6 +25,11 @@ const Services = () => {
     // };
     return (
         <div>
+            <Helmet>
+                <title>Our Services</title>
+                <meta name="description" content="Get the best It services in Pune at Radiant IT Services. We provide Digital Marketing services, Web development services, graphic designing services in Pune." />
+                <meta name="keywords" content="It services in Pune, the Best IT service company in Pune, Web development company in Pune, Digital marketing agency in Pune, IT company in Kharadi, Web development company in Kharadi." />
+            </Helmet>
             {/* section 1 */}
             <div className='container-fluid fullstkCon'>
                 <div className='container py-5'>
@@ -109,7 +115,7 @@ const Services = () => {
 
                         </div>
                         <div className='col-md-6 my-auto text-center'>
-                            <img src={DigitalMarketingServices} alt='Dital Marketing services Img' className='img-fluid ' style={{height:"450px"}} />
+                            <img src={DigitalMarketingServices} alt='Dital Marketing services Img' className='img-fluid ' style={{ height: "450px" }} />
                         </div>
                     </div>
                 </div>
@@ -131,7 +137,7 @@ const Services = () => {
 
                     <div className='row mt-5'>
                         <div className='col-md-6 my-auto text-center'>
-                            <img src={WebDevServices} alt='Dital Marketing services Img' className='img-fluid ' style={{height:"450px"}} />
+                            <img src={WebDevServices} alt='Dital Marketing services Img' className='img-fluid ' style={{ height: "450px" }} />
                         </div>
                         <div className='col-md-6'>
                             <ul>
@@ -181,33 +187,33 @@ const Services = () => {
 
             {/* section 4 */}
             <div className='container-fluid mt-5'>
-    <div className='container'>
-        <div className='row'>
-            <div className='col-md-6 DigitalMrktSer'>
-                <h4 className='text-center p-3 text-light'>
-                    BILLING SERVICES
-                </h4>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col-md-6 DigitalMrktSer'>
+                            <h4 className='text-center p-3 text-light'>
+                                BILLING SERVICES
+                            </h4>
+                        </div>
+                    </div>
+                    <div className='row mt-5'>
+                        <div className='col-md-6 d-flex align-items-center' style={{ lineHeight: "40px" }}
+                        >
+                            <p>
+                                Efficient and user-friendly billing software designed to
+                                simplify financial processes, ensuring accuracy and
+                                timeliness. Our services are designed to simplify and
+                                optimize your billing processes, ensuring accuracy and
+                                timeliness. From invoicing to expense tracking, our billing
+                                software streamlines financial workflows, enhancing overall
+                                efficiency.
+                            </p>
+                        </div>
+                        <div className='col-md-6 my-auto text-center'>
+                            <img src={BillingSoftware} alt='Billing SoftwareImg' className='img-fluid' />
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div className='row mt-5'>
-            <div className='col-md-6 d-flex align-items-center' style={{ lineHeight: "40px" }}
->
-                <p>
-                    Efficient and user-friendly billing software designed to
-                    simplify financial processes, ensuring accuracy and
-                    timeliness. Our services are designed to simplify and
-                    optimize your billing processes, ensuring accuracy and
-                    timeliness. From invoicing to expense tracking, our billing
-                    software streamlines financial workflows, enhancing overall
-                    efficiency.
-                </p>
-            </div>
-            <div className='col-md-6 my-auto text-center'>
-                <img src={BillingSoftware} alt='Billing SoftwareImg' className='img-fluid' />
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
@@ -227,7 +233,7 @@ const Services = () => {
                     </div>
                     <div className='row '>
                         <div className='col-md-6  text-center'>
-                            <img src={GraphicDesignSer} alt='Dital Marketing services Img' className='img-fluid '  style={{height:"450px"}}/>
+                            <img src={GraphicDesignSer} alt='Dital Marketing services Img' className='img-fluid ' style={{ height: "450px" }} />
                         </div>
                         <div className='col-md-6'>
                             <p className='mt-5 text-light'>

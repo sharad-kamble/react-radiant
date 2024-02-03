@@ -9,10 +9,16 @@ import CourseDurationPowerbi from "../../../assets/images/CourseDurationPowerbi.
 import VaishnaviGangawane from "../../../assets/images/VaishnaviGangawane.png"
 import RahulDhepe from "../../../assets/images/RahulDhepe.png"
 import ShraddhaAntad from "../../../assets/images/ShraddhaAntad.png"
+import { Helmet } from 'react-helmet';
 
 const Powerbi = () => {
   return (
     <div>
+      <Helmet>
+        <title>PowerBi Course </title>
+        <meta name="description" content="Radiant’s Power BI certification training in Pune will help you learn Power BI concepts like Microsoft Power BI Desktop layouts, BI reports, and dashboards. " />
+        <meta name="keywords" content="power bi classes in pune, power bi course in pune, power bi training in pune, power bi classes, power bi course, power bi training, power bi classes near me, best power bi classes in pune" />
+      </Helmet>
       <div className='container-fluid fullstkCon'>
         <div className='container py-5'>
           <h1 className='abouth3 text-center pb-2'><strong>POWER BI</strong></h1>

@@ -9,10 +9,18 @@ import CourseDurationui from "../../../assets/images/CourseDurationui.png";
 import VaishnaviGangawane from "../../../assets/images/VaishnaviGangawane.png"
 import RahulDhepe from "../../../assets/images/RahulDhepe.png"
 import ShraddhaAntad from "../../../assets/images/ShraddhaAntad.png"
+import { Helmet } from 'react-helmet';
 
 const UIdesign = () => {
   return (
     <div>
+      <Helmet>
+        <title>UI/UX Design Course </title>
+        <meta name="description" content="Learn the principles of design thinking, wireframing, and prototyping. Develop a keen eye
+     for visual design elements and master interactive design.
+     "/>
+        <meta name="keywords" content="Top UI UX design courses in Pune, UI UX course fee, UI Design course, UX Design course, UI UX Design course near me, Best UI UX course, Learn how to create Information Architecture, UI UX Training, UI UX Institute" />
+      </Helmet>
       <div className='container-fluid fullstkCon'>
         <div className='container py-5'>
           <h1 className='abouth3 text-center pb-2'><strong>UI/UX Design </strong></h1>

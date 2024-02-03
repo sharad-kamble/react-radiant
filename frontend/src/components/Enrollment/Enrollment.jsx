@@ -3,6 +3,7 @@ import './enrollment.css';
 import Logo from '../../assets/images/logo.png';
 import Sample from '../../assets/images/sample.png';
 import Logofooter from '../../assets/images/logofooter.png'
+import { Helmet } from 'react-helmet';
 const Enrollment = () => {
 
 
@@ -139,6 +140,11 @@ const Enrollment = () => {
 
   return (
     <div className='body'>
+      <Helmet>
+        <title>Enroll</title>
+        <meta name="description" content="Your meta description goes here." />
+        <meta name="keywords" content="keyword1, keyword2, keyword3" />
+      </Helmet>
       <div className="container enrollContainer mt-5 mb-3">
         <div className="row justify-content-center">
           <div className="col-md-12">

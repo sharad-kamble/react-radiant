@@ -6,11 +6,22 @@ import aboutUs6 from '../../assets/images/aboutus6.png';
 import aboutUs4 from '../../assets/images/powerbi.png';
 import aboutUs5 from '../../assets/images/salesforce.png';
 import Aboutleftimg from '../../assets/images/Aboutleftimg.png';
+import Iso from '../../assets/images/Iso.png';
+import Certificate from '../../assets/images/Certificate.pdf';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 
 const About = () => {
+
   return (
     <div>
+      <Helmet>
+        <title>About us </title>
+        <meta name="description" content="Radiant It Services Pvt Ltd is a software development company & takes IT training courses in Pune. We provide a Job Guarantee for all our IT courses." />
+        <meta name="keywords" content="software development in pune, software development pune, training institutes in pune, best training institute in pune, it training institutes in pune, best it training institutes in pune, software training institute in pune, software training institutes" />
+      </Helmet>
+
       {/* section 1 */}
       <div className='container-fluid AboutUs'>
         <div className='container py-5 aboutText'>
@@ -105,7 +116,38 @@ const About = () => {
 
       {/* section 5 */}
 
+      <div className="container">
+        <div className="row my-5">
+          <div className="col-md-6">
+            <img src={Iso} alt="About Us Image" className='img-fluid mx-auto d-block' style={{ height: "200px", width: "250px" }} />
+            <div className="text-center">
+              {/* <button type="submit" className="Iso-Btn" >
+                <strong>VIEW CERTIFICATE</strong>
+              </button> */}
 
+              <Link
+                to={Certificate}
+                target="_blank"
+                rel="noreferrer"
+                className='certibtn'
+                style={{ textDecoration: 'none' }}
+              >
+                <button type="submit" className="Iso-Btn">
+                  <strong>VIEW CERTIFICATE</strong></button>
+              </Link>
+            </div>
+          </div>
+          <div className="col-md-6 my-5">
+            At Radiant IT Services, we take pride in our commitment
+            to quality and excellence. We are thrilled to announce our
+            ISO certification, a testament to our unwavering dedication
+            to meeting and exceeding international standards. This
+            certification reflects our rigorous adherence to best
+            practices, ensuring that our products & services
+            consistently meet the highest quality benchmarks.
+          </div>
+        </div>
+      </div>
       {/* section 6 */}
       <div className="abtdiff container-fluid">
         <div className='container'>
@@ -125,15 +167,16 @@ const About = () => {
               </p>
 
               <div className="text-center">
-                <button type="submit" className="joinUsBtn mt-5 mb-5">
+                <button type="submit" className="joinUsBtn ">
                   <strong>JOIN US</strong>
                 </button>
               </div>
             </div>
             <div className='col-md-6 aboutImg text-center'>
-              <img src={Whyus} alt="About Us Image" className='img-fluid mx-auto py-4 d-block' style={{ height: "300px", width: "400px" }} />
+              <img src={Whyus} alt="About Us Image" className='img-fluid mx-auto my-5 d-block' style={{ height: "300px", width: "400px" }} />
               {/* <h4 className='text-white'><strong>ADD VIDEO</strong></h4> */}
             </div>
+
           </div>
 
         </div>

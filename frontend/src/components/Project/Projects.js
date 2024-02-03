@@ -18,6 +18,7 @@ import Jobportal from '../../assets/images/Jobportal.png';
 import Surajimg from '../../assets/images/Surajimg.png';
 import Akashimg from '../../assets/images/Akashimg.png';
 import Prashantimg from '../../assets/images/Prashantimg.png';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -25,6 +26,11 @@ import Prashantimg from '../../assets/images/Prashantimg.png';
 const Projects = () => {
     return (
         <div>
+            <Helmet>
+                <title>Candidates Project </title>
+                <meta name="description" content="At Radiant IT Services projects are an essential part of our training. We provide live projects that help candidates to solve real-time problems." />
+                <meta name="keywords" content="full stack web development course in pune, web development course in pune, full stack developer course in pune, data science course in pune, data science course in pune with placement guarantee, it certification programs onli" />
+            </Helmet>
             {/* section 1 */}
             <div className='container-fluid fullstkCon'>
                 <div className='container py-5'>
@@ -453,7 +459,7 @@ const Projects = () => {
                         >
                             {/* Student Photo */}
                             <div className="row p-1">
-                            <div className="col-md-6 job-card">
+                                <div className="col-md-6 job-card">
                                     <img
                                         src={Surajimg}
                                         className=" school-card-img school-img card-img-top mx-auto m-2 "

@@ -9,9 +9,15 @@ import coursedurationdm from "../../../assets/images/coursedurationdm.png";
 import VaishnaviGangawane from "../../../assets/images/VaishnaviGangawane.png"
 import RahulDhepe from "../../../assets/images/RahulDhepe.png"
 import ShraddhaAntad from "../../../assets/images/ShraddhaAntad.png"
+import { Helmet } from 'react-helmet';
 const Digitalmarketing = () => {
   return (
     <div>
+       <Helmet>
+        <title>Digital Marketing Course</title>
+        <meta name="description" content="Learn, create, and run your own campaign. Become a qualified Digital Marketer, SEO executive, and Social Media Marketer in one course. Learn today." />
+        <meta name="keywords" content="Digital marketing company in pune, digital marketing agency in pune, digital marketing course in pune, digital marketing company, internet marketing, digital marketing course nearby" />
+      </Helmet>
       <div className='container-fluid fullstkCon'>
         <div className='container py-5'>
           <h1 className='abouth3 text-center pb-2'><strong>DIGITAL MARKETING </strong></h1>

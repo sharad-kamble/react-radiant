@@ -9,11 +9,18 @@ import CourseDurationSales from "../../../assets/images/CourseDurationSales.png"
 import VaishnaviGangawane from "../../../assets/images/VaishnaviGangawane.png"
 import RahulDhepe from "../../../assets/images/RahulDhepe.png"
 import ShraddhaAntad from "../../../assets/images/ShraddhaAntad.png"
+import { Helmet } from 'react-helmet';
 
 
 const Salesforce = () => {
   return (
     <div>
+      <Helmet>
+        <title>Salesforce Course</title>
+        <meta name="description" content="Pune's top Salesforce training for beginners & pros. Learn in-demand skills, get certified, and succeed in CRM, land high-paying jobs, and elevate your career." />
+        <meta name="keywords" content="Salesforce admin training, Salesforce development course, Salesforce Certification Training in Pune, Salesforce course near me, Salesforce course in pune, salesforce training institute in pune, best salesforce training institute in pune with placement" />
+      </Helmet>
+
       <div className='container-fluid fullstkCon'>
         <div className='container py-5'>
           <h1 className='abouth3 text-center pb-2'><strong>SALESFORCE</strong></h1>
@@ -89,239 +96,7 @@ const Salesforce = () => {
               </div>
             </div>
 
-            {/* Third  */}
 
-            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
-              <div className="accordion-item customAccordion">
-                <h2 className="accordion-header" id="flush-headingThree">
-                  <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    <span className="plus-sign "> + </span> JavaScript
-                  </button>
-                </h2>
-                <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                  <div className="accordion-body">
-                    <ul>
-                      <li>DOM Manipulation</li>
-                      <li>Event Handling</li>
-                      <li>Ajax Requests</li>
-                      <li>ES6+ Features</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
-            {/* Four */}
-
-            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
-              <div className="accordion-item customAccordion">
-                <h2 className="accordion-header" id="flush-headingFour">
-                  <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                    <span className="plus-sign "> + </span> Bootstrap
-                  </button>
-                </h2>
-                <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                  <div className="accordion-body">
-                    <ul>
-                      <li>Grid System</li>
-                      <li>Typography</li>
-                      <li>Forms</li>
-                      <li>Components</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
-            {/* Five */}
-
-            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
-              <div className="accordion-item customAccordion">
-                <h2 className="accordion-header" id="flush-headingFive">
-                  <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                    <span className="plus-sign "> + </span> WordPress
-                  </button>
-                </h2>
-                <div id="flush-collapseFive" className="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                  <div className="accordion-body">
-                    <ul>
-                      <li>Themes</li>
-                      <li>Plugins</li>
-                      <li>Customization</li>
-                      <li>Posts and Pages</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
-            {/* Six */}
-
-            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
-              <div className="accordion-item customAccordion">
-                <h2 className="accordion-header" id="flush-headingSix">
-                  <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                    <span className="plus-sign "> + </span> Angular
-                  </button>
-                </h2>
-                <div id="flush-collapseSix" className="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                  <div className="accordion-body">
-                    <ul>
-                      <li>Themes</li>
-                      <li>Plugins</li>
-                      <li>Customization</li>
-                      <li>Posts and Pages</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
-            {/* Seven */}
-            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
-              <div className="accordion-item customAccordion">
-                <h2 className="accordion-header" id="flush-headingSeven">
-                  <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                    <span className="plus-sign "> + </span> Core Java
-                  </button>
-                </h2>
-                <div id="flush-collapseSeven" className="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
-                  <div className="accordion-body">
-                    <ul>
-                      <li>Themes</li>
-                      <li>Plugins</li>
-                      <li>Customization</li>
-                      <li>Posts and Pages</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
-            {/* Eight */}
-            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
-              <div className="accordion-item customAccordion">
-                <h2 className="accordion-header" id="flush-headingEight">
-                  <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-                    <span className="plus-sign "> + </span> Advanced Java
-                  </button>
-                </h2>
-                <div id="flush-collapseEight" className="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
-                  <div className="accordion-body">
-                    <ul>
-                      <li>Themes</li>
-                      <li>Plugins</li>
-                      <li>Customization</li>
-                      <li>Posts and Pages</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
-            {/* Nine */}
-            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
-              <div className="accordion-item customAccordion">
-                <h2 className="accordion-header" id="flush-headingNine">
-                  <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-                    <span className="plus-sign "> + </span> Spring (Frame Work)
-                  </button>
-                </h2>
-                <div id="flush-collapseNine" className="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
-                  <div className="accordion-body">
-                    <ul>
-                      <li>Themes</li>
-                      <li>Plugins</li>
-                      <li>Customization</li>
-                      <li>Posts and Pages</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
-            {/* Ten */}
-            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
-              <div className="accordion-item customAccordion">
-                <h2 className="accordion-header" id="flush-headingTen">
-                  <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
-                    <span className="plus-sign "> + </span> Hibernate (Framework)
-                  </button>
-                </h2>
-                <div id="flush-collapseTen" className="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
-                  <div className="accordion-body">
-                    <ul>
-                      <li>Themes</li>
-                      <li>Plugins</li>
-                      <li>Customization</li>
-                      <li>Posts and Pages</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-
-            {/* Eleven */}
-            {/*  *<div className="accordion accordion-flush py-3" id="accordionFlushExample">
-              <div className="accordion-item customAccordion">
-                <h2 className="accordion-header" id="flush-headingEleven">
-                  <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
-                    <span className="plus-sign "> + </span> Node. JS
-                  </button>
-                </h2>
-                <div id="flush-collapseEleven" className="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
-                  <div className="accordion-body">
-                    <ul>
-                      <li>Themes</li>
-                      <li>Plugins</li>
-                      <li>Customization</li>
-                      <li>Posts and Pages</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>/}
-
-            {/* Twelve */}
-            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
-              <div className="accordion-item customAccordion">
-                <h2 className="accordion-header" id="flush-headingTwelve">
-                  <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
-                    <span className="plus-sign "> + </span> React
-                  </button>
-                </h2>
-                <div id="flush-collapseTwelve" className="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
-                  <div className="accordion-body">
-                    <ul>
-                      <li>Themes</li>
-                      <li>Plugins</li>
-                      <li>Customization</li>
-                      <li>Posts and Pages</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-            {/* Thirteen */}
-            {/* <div className="accordion accordion-flush py-3" id="accordionFlushExample">
-              <div className="accordion-item customAccordion">
-                <h2 className="accordion-header" id="flush-headingThirteen">
-                  <button className="accordion-button collapsed accordionBtn" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
-                    <span className="plus-sign "> + </span> Mongo DB
-                  </button>
-                </h2>
-                <div id="flush-collapseThirteen" className="accordion-collapse collapse" aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionFlushExample">
-                  <div className="accordion-body">
-                    <ul>
-                      <li>Themes</li>
-                      <li>Plugins</li>
-                      <li>Customization</li>
-                      <li>Posts and Pages</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div> */}
           </div>
 
           <div className='col-md-6'>

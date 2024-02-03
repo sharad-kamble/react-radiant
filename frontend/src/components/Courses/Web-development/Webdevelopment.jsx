@@ -12,9 +12,15 @@ import CourseDurationWebdev from "../../../assets/images/CourseDurationWebdev.pn
 import Poojaweb from "../../../assets/images/Poojaweb.png"
 import Sapnaweb from "../../../assets/images/Sapnaweb.png"
 import Nikitaweb from "../../../assets/images/Nikitaweb.png"
+import { Helmet } from 'react-helmet';
 const Webdevelopment = () => {
   return (
     <div>
+      <Helmet>
+        <title>Web Development Course </title>
+        <meta name="description" content="data science course, data science course fees, data science course in pune, data science course in pune with placement guarantee, data science course in pune fees" />
+        <meta name="keywords" content="Learn web development and build apps, interactive and dynamic websites, and projects using angular, javascript, HTML, CSS, and more." />
+      </Helmet>
       <div className='container-fluid fullstkCon'>
         <div className='container py-5'>
           <h1 className='abouth3 text-center pb-2'><strong>WEB DEVELOPMENT </strong></h1>
@@ -445,7 +451,7 @@ const Webdevelopment = () => {
                   <div className='col-md-6 col-sm-6 mt-4 text-left'>
                     <div className="rating">
                       <h5 className="card-title mt-2">Pooja Dhingra
-                        </h5>
+                      </h5>
                       <div className='ReviewRating'>
                         <span className="star star-yellow">&#9733;</span>
                         <span className="star star-yellow">&#9733;</span>

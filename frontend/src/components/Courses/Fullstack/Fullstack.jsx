@@ -10,12 +10,18 @@ import VaishnaviGangawane from "../../../assets/images/VaishnaviGangawane.png"
 import RahulDhepe from "../../../assets/images/RahulDhepe.png"
 import ShraddhaAntad from "../../../assets/images/ShraddhaAntad.png"
 import Contactellips from "../../../assets/images/Contactellips.png"
+import { Helmet } from 'react-helmet';
 
 
 const Courses = () => {
   return (
     <div>
       <div className='container-fluid fullstkCon'>
+        <Helmet>
+          <title>Full Stack Java Development Course</title>
+          <meta name="description" content="We provide one of the best Full stack Java development courses in Pune. You will learn the back end and front end in detail. Learn to retrieve and extract data" />
+          <meta name="keywords" content="full stack classes in pune, full stack course in pune, full stack training in pune, full stack classes, full stack course, full stack training, full stack classes near me, best full stack classes in pune, full-stack online classes, full stack online courses, full stack online training." />
+        </Helmet>
         <div className='container py-5'>
           <h1 className='abouth3 text-center pb-2'><strong>FULL STACK JAVA DEVELOPMENT</strong></h1>
           <p className='text-center fullstkPara'>

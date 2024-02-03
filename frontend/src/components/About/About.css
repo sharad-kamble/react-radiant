@@ -17,8 +17,8 @@
 }
 
 .aboutPara {
-   
-  
+
+
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
@@ -26,42 +26,44 @@
 
 }
 
-.abouth6{
+.abouth6 {
     padding: 10px;
     font-size: 20px;
     font-weight: 600;
     color: #0097A4;
-    
+
 }
-.abouth4{
-    
+
+.abouth4 {
+
     font-size: 25px;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0em;
     text-align: left;
-    
+
 }
 
 
-.aboutTeamMem{
+.aboutTeamMem {
     background-color: #ECFDFF;
 }
-.abtcardHead{
+
+.abtcardHead {
     color: #35C1D5;
 }
 
-.abouth2{
+.abouth2 {
     color: #025978;
 }
 
-.abtdiff{
+.abtdiff {
     background-color: #025978;
 
 
 }
 
-.joinUsBtn{
+.joinUsBtn {
     width: 200px;
     height: 50px;
     border-radius: 90px;
@@ -71,26 +73,54 @@
     padding: 5px;
 }
 
-.joinUsBtn:hover{
+.joinUsBtn:hover {
     background-color: #fff;
     border: 1px solid #5BD066;
     color: #5BD066;
 }
-  
- /* Center the image on small screens */
- @media (max-width: 767px) {
-    .abouth4{
+
+
+
+.Iso-Btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 90px;
+    border: 1px solid #5BD066;
+    background-color: #025978;
+    color: #f8fcf8;
+    padding: 5px;
+    margin-top: 5px;
+    text-decoration: none; /* Remove default link underline */
+    display: inline-block; /* Ensure inline-block for padding to work properly */
+}
+
+.Iso-Btn:hover {
+    background: #fff;
+    color: #025978; /* Change the text color to blue on hover */
+}
+
+/* .certibtn{
+    color: #fff;
+} */
+
+/* .certibtn:hover{
+    color: #000;
+} */
+
+/* Center the image on small screens */
+@media (max-width: 767px) {
+    .abouth4 {
         margin-left: 15px;
         margin-right: auto;
     }
 
     .aboutImg {
-      text-align: center;
-      width: 100%;
-      height: auto;
+        text-align: center;
+        width: 100%;
+        height: auto;
     }
 
-    .abouth2{
+    .abouth2 {
         text-align: center;
     }
-  }
+}

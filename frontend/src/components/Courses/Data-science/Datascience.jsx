@@ -12,9 +12,15 @@ import CourseDurationDatasci from "../../../assets/images/CourseDurationDatasci.
 import Pritidatasci from "../../../assets/images/Pritidatasci.png"
 import Rohitdatasci from "../../../assets/images/Rohitdatasci.png"
 import Vrushalidatasci from "../../../assets/images/Vrushalidatasci.png"
+import { Helmet } from 'react-helmet';
 const Datascience = () => {
   return (
     <div>
+      <Helmet>
+        <title>Data Science Course</title>
+        <meta name="description" content="This online Data Science training course helps you become a certified Data Scientist with in-demand skills MySQL, NLP, deep learning and AWS." />
+        <meta name="keywords" content="data science course, data science course fees, data science course in pune, data science course in pune with placement guarantee, data science course in pune fees" />
+      </Helmet>
       <div className='container-fluid fullstkCon'>
         <div className='container py-5'>
           <h1 className='abouth3 text-center pb-2'><strong>DATA SCIENCE </strong></h1>
@@ -473,7 +479,7 @@ const Datascience = () => {
                   </div>
                   <div className='col-md-6 col-sm-6 mt-4 text-left'>
                     <div className="rating">
-                      <h5 className="card-title mt-2">Vrushali <br/>Nannaware</h5>
+                      <h5 className="card-title mt-2">Vrushali <br />Nannaware</h5>
                       <div className='ReviewRating'>
                         <span className="star star-yellow">&#9733;</span>
                         <span className="star star-yellow">&#9733;</span>

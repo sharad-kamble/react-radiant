@@ -13,6 +13,7 @@ import { Helmet } from 'react-helmet';
 
 
 const About = () => {
+  const videoId = 'jQxQJHPZ9FQ';
 
   return (
     <div>
@@ -94,9 +95,17 @@ const About = () => {
             </p>
           </div>
           <div className='col-md-6 aboutImg text-center'>
-            <img src={aboutUs} className='img-fluid mx-auto d-block' style={{ height: "300px", width: "500px" }} />
-            {/* <h4 className='py-3'><strong>ADD VIDEO</strong></h4> */}
+            <iframe
+              width="450"
+              height="300"
+              src="https://www.youtube.com/embed/ilQYl0LGQ94?autoplay=1"
+              title="YouTube Video"
+              frameBorder="0"
+              allowFullScreen
+            ></iframe>
           </div>
+
+
         </div>
 
         <div className='row'>

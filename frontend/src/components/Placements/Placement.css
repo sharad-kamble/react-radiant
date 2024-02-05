@@ -169,3 +169,16 @@
 
 
 }
+@media (max-width: 575.98px) {
+  /* Adjust the layout for mobile screens */
+  .carousel-inner .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .carousel-item .row .col-md-2 {
+    flex: 0 0 calc(50% - 10px); /* Two images with a small gap between them */
+    margin: 5px;
+  }
+}

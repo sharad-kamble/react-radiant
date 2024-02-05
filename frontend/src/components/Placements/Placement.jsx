@@ -9,6 +9,7 @@ import Shabeed from '../../assets/images/Shabeed.png';
 import Nikita from '../../assets/images/Nikita.png';
 import Vaishnavi from '../../assets/images/Vaishnavi.png';
 import { Helmet } from 'react-helmet';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 const Placement = () => {
   return (
@@ -284,28 +285,14 @@ const Placement = () => {
 
         </div>
       </div>
+     
       <section className="pt-3 ">
+
         <div className="container">
+
           <div className="row">
-            <div className="col-md-6">{/* Remove the title element */}</div>
-            <div className="col-md-6 text-end">
-              <a
-                className="btn btn-primary mb-3 me-1"
-                href="#carouselExampleIndicators2"
-                role="button"
-                data-bs-slide="prev"
-              >
-                <i className="fa fa-arrow-left" />
-              </a>
-              <a
-                className="btn btn-primary mb-3 "
-                href="#carouselExampleIndicators2"
-                role="button"
-                data-bs-slide="next"
-              >
-                <i className="fa fa-arrow-right" />
-              </a>
-            </div>
+
+
             <div className="col-12">
               <div
                 id="carouselExampleIndicators2"
@@ -498,6 +485,24 @@ const Placement = () => {
           </div>
         </div>
       </section>
+      <div className="col-md-12 my-4 text-center">
+        <a
+          className="btn btn-primary mb-3 me-1"
+          href="#carouselExampleIndicators2"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <FaArrowLeft />
+        </a>
+        <a
+          className="btn btn-primary mb-3"
+          href="#carouselExampleIndicators2"
+          role="button"
+          data-bs-slide="next"
+        >
+          <FaArrowRight />
+        </a>
+      </div>
 
       <div className="container-fluid placementdrive" style={{ marginTop: "200px" }}>
         <div className="container custom-border" >

@@ -27,6 +27,7 @@ const Header = () => {
         };
 
     }, []);
+    // scroll to top
     const handleLinkClick = () => {
         const navbarToggler = document.querySelector('.navbar-toggler');
         if (navbarToggler && window.innerWidth <= 991) {

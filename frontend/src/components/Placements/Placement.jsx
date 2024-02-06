@@ -242,6 +242,7 @@ const Placement = () => {
 
                       </div>
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -266,6 +267,32 @@ const Placement = () => {
 
                       </div>
                     </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 mb-3">
+                <div className="placementcrd card" style={{ maxWidth: 540 }}>
+                  <div className="row g-0">
+                    <div className="placementimgs col-md-4">
+                      <img
+                        src={Vaishnavi}
+                        className="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div className="col-md-8">
+                      <div className="card-body">
+                        <h5 className="card-title">Vaishnavi Jadhav</h5>
+                        <p className="card-text">
+                          Name of Company - Nuage CX Consulting
+                          Pvt. Ltd.<br />
+                          Designation - Software Testing
+                        </p>
+
+                      </div>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -487,7 +514,7 @@ const Placement = () => {
       </section>
       <div className="col-md-12 my-4 text-center">
         <a
-          className="btn btn-primary mb-3 me-1"
+          className="btnsucachivers btn btn-primary mb-3 me-1"
           href="#carouselExampleIndicators2"
           role="button"
           data-bs-slide="prev"
@@ -495,7 +522,7 @@ const Placement = () => {
           <FaArrowLeft />
         </a>
         <a
-          className="btn btn-primary mb-3"
+          className="btnsucachivers btn btn-primary mb-3"
           href="#carouselExampleIndicators2"
           role="button"
           data-bs-slide="next"

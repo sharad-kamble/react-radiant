@@ -54,6 +54,13 @@
 
 }
 
+.email-text{
+  font-weight: 500 ;
+}
+.phone-text{
+  font-weight: 500;
+}
+
 /* Media query for screens with a maximum width of 767 pixels (typical for mobile devices) */
 @media only screen and (max-width: 767px) {
   .header {
@@ -63,10 +70,24 @@
   .social-icons {
     /* flex-direction: column; 
     align-items: center; */
-    display: none;
+    display: flex;
+    
   }
 
   .contact-info {
     margin-bottom: 10px; /* Add margin between contact and email on smaller screens */
   }
+}
+
+@media (max-width: 768px) {
+  .headercontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info {
+    margin-bottom: 20px; /* Add some space between contact info and social icons */
+  }
+
+ 
 }

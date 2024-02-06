@@ -19,18 +19,22 @@ const Socialbar = () => {
   const instagramUrl = 'https://www.instagram.com/radiant_it_services/';
   return (
     <div className='header'>
-      <header className="d-flex justify-content-between p-3 container">
+      <header className="headercontainer d-flex justify-content-between p-3 container">
         {/* Column for contact and email */}
         <div className="contact-info">
+          
           <div className='text-center text-dark mx-1' >
+          <div className='text-center text-dark'>
+          
+          </div>
+            <MdPhone size={20} className="phone-icon" />
+            <span className="phone-text"> +91-7077070030 </span>
             {/* Email Section */}
             <MdEmail size={20} className=" email-icon" />
-            <span className="email-text">info@radiantitservices.in</span>
+            <a href="mailto:info@radiantitservices.in" className="email-text"> info@radiantitservices.in</a>
+          <a href="mailto:hr@radiantitservices.in" className="email-text">, hr@radiantitservices.in </a>
           </div>
-          <div className='text-center text-dark'>
-            <MdPhone size={20} className="phone-icon" />
-            <span className="phone-text">+91 7077070030</span>
-          </div>
+
         </div>
 
         {/* Column for icons */}
@@ -41,7 +45,7 @@ const Socialbar = () => {
           </Link>
           <Link to={whatsappUrl} target="_blank" rel="noopener noreferrer" className="mx-2">
             {/* <img src={Whatsapp} style={{height:"35px"}} alt="" className="whatsapp-icon" /> */}
-            <IoLogoWhatsapp  size={27} className="whatsapp-icon" />
+            <IoLogoWhatsapp size={27} className="whatsapp-icon" />
           </Link>
 
           {/* Link the LinkedIn icon to the LinkedIn URL */}

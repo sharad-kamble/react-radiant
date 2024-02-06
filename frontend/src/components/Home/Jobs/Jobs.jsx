@@ -1,4 +1,5 @@
-import React from 'react';
+// import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Jobs.css'
 // import web from '../../assets/images/web.png';
@@ -10,6 +11,46 @@ import uiux from '../../../assets/images/uiux.png';
 import salesforce from '../../../assets/images/salesforce.png';
 import digitalmarketing from '../../../assets/images/digitalmarketing.png';
 const Jobs = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [menuExpanded, setMenuExpanded] = useState(false);
+  useEffect(() => {
+
+      const handleScroll = () => {
+          const scrollPosition = window.scrollY;
+          if (scrollPosition > 0) {
+              setIsScrolled(true);
+          } else {
+              setIsScrolled(false);
+          }
+      };
+
+      window.addEventListener('scroll', handleScroll);
+
+      return () => {
+          window.removeEventListener('scroll', handleScroll);
+      };
+
+  }, []);
+  // scroll to top
+  const handleLinkClick = () => {
+      const navbarToggler = document.querySelector('.navbar-toggler');
+      if (navbarToggler && window.innerWidth <= 991) {
+          navbarToggler.click();
+      }
+      setMenuExpanded(false);
+  };
+
+  const scrollToTop = () => {
+      window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+      });
+  };
+  // combined two fun
+  const handleCombinedClick = () => {
+      handleLinkClick();
+      scrollToTop();
+  };
 
 
   return (
@@ -33,7 +74,7 @@ const Jobs = () => {
               </p>
               <Link
                 to="/courses/data-science-course"
-                className=" btn btn-primary btn-block "
+                className=" btn btn-primary btn-block " onClick={handleCombinedClick}
                 style={{ borderRadius: "15px", backgroundColor: "#025978" }}
               >
                 <strong>VIEW DETAILS</strong>
@@ -61,8 +102,8 @@ const Jobs = () => {
                 developers.
               </p>
               <Link
-                 to="/courses/full-stack-development-course"
-                className="btn btn-primary btn-block "
+                to="/courses/full-stack-development-course"
+                className="btn btn-primary btn-block " onClick={handleCombinedClick}
                 style={{ borderRadius: "15px", backgroundColor: "#025978" }}
               >
                 <strong>VIEW DETAILS</strong>
@@ -89,7 +130,7 @@ const Jobs = () => {
               </p>
               <Link
                 to="/courses/web-development-course"
-                className="btn btn-primary btn-block "
+                className="btn btn-primary btn-block "  onClick={handleCombinedClick}
                 style={{ borderRadius: "15px", backgroundColor: "#025978" }}
               >
                 <strong>VIEW DETAILS</strong>
@@ -118,7 +159,7 @@ const Jobs = () => {
               </p>
               <Link
                 to="/courses/powerbi-course"
-                className="btn btn-primary btn-block "
+                className="btn btn-primary btn-block " onClick={handleCombinedClick}
                 style={{ borderRadius: "15px", backgroundColor: "#025978" }}
               >
                 <strong>VIEW DETAILS</strong>
@@ -148,7 +189,7 @@ const Jobs = () => {
               </p>
               <Link
                 to="/courses/ui-ux-design-course"
-                className="btn btn-primary btn-block  "
+                className="btn btn-primary btn-block  " onClick={handleCombinedClick}
                 style={{ borderRadius: "15px", backgroundColor: "#025978" }}
               >
                 <strong>VIEW DETAILS</strong>
@@ -177,7 +218,7 @@ const Jobs = () => {
               </p>
               <Link
                 to="/courses/salesforce-course"
-                className="btn btn-primary btn-block "
+                className="btn btn-primary btn-block " onClick={handleCombinedClick}
                 style={{ borderRadius: "15px", backgroundColor: "#025978" }}
               >
                 <strong>VIEW DETAILS</strong>
@@ -202,7 +243,7 @@ const Jobs = () => {
               </p>
               <Link
                 to="/courses/digital-marketing-course"
-                className="btn btn-primary btn-block "
+                className="btn btn-primary btn-block " onClick={handleCombinedClick}
                 style={{ borderRadius: "15px", backgroundColor: "#025978" }}
               >
                 <strong>VIEW DETAILS</strong>

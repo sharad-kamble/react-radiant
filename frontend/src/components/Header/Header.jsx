@@ -119,7 +119,7 @@ const Header = () => {
                                     </li>
                                     <li>
                                         <Link className="dropdown-item" onClick={handleCombinedClick} to="/courses/powerbi-course">
-                                            PowerBI
+                                            Power BI
                                         </Link>
                                     </li>
                                 </ul>

@@ -29,7 +29,7 @@ const Socialbar = () => {
           </div>
           <div className='text-center text-dark'>
             <MdPhone size={20} className="phone-icon" />
-            <span className="phone-text">+919766861473</span>
+            <span className="phone-text">+91 7077070030</span>
           </div>
         </div>
 

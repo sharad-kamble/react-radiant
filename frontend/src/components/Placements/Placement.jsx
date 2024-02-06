@@ -22,7 +22,7 @@ const Placement = () => {
 
       <div className='container-fluid placement' style={{ backgroundColor: "#D0F1F4" }}>
         <div className='container py-5 placementText'>
-          <h1 className='text-center my-4 placementh3'><strong>PLACEMENTS</strong></h1>
+          <h1 className='text-center my-4 placementh3'><strong>PLACEMENT</strong></h1>
           <p>
             Explore limitless opportunities with Radiant IT Services Pvt Ltd,<br />
             where our industry-ready training seamlessly blends theory with hands-on<br />

@@ -2,7 +2,7 @@ import React from 'react'
 import './Salesforce.css';
 import Ellipse from '../../../assets/images/Ellipse.png';
 import { MdPhone } from 'react-icons/md';
-import { FaWhatsapp } from "react-icons/fa6";
+import { FaEnvelope } from "react-icons/fa6";
 import CourseFeature from "../../../assets/images/CourseFeature.png";
 import CourseDurationSales from "../../../assets/images/CourseDurationSales.png";
 // import StudentReview from "../../.././assets/images/StudentReview.png";
@@ -124,19 +124,20 @@ const Salesforce = () => {
               </div>
               <div className="d-flex align-items-center  py-2">
                 <div className="bg-danger text-light rounded-circle  mx-4">
-                  <MdPhone size={20} className="phone-icon" />
+                  <MdPhone size={25} className="phone-icon" />
                 </div>
-                <span className="mx-4 phone-text text-white">+91-9766861473</span>
+                <span className="mx-4 phone-text text-white">+91-7077070030</span>
                 <div className="custom-vr mx-2"></div>
-                <div className="mx-4 text-light">+91-9766861473</div>
+                <div className="mx-4 text-light">+91-8483811160</div>
               </div>
               <div className="d-flex align-items-center  py-2">
                 <div className="bg-success text-light rounded-circle  mx-4">
-                  <FaWhatsapp size={20} className="phone-icon" />
+                  <FaEnvelope size={25} className="phone-icon" />
                 </div>
-                <span className="mx-4 phone-text text-white">+91-9766861473</span>
-                <div className="custom-vr mx-2"></div>
-                <div className="mx-4 text-light">+91-9766861473</div>
+                <span className="mx-4 phone-text text-white">info@radiantitservices.in
+                  hr@radiantitservices.in</span>
+                {/* <div className="custom-vr mx-2"></div>
+                <div className="mx-4 text-light">+91-9766861473</div> */}
               </div>
             </div>
 

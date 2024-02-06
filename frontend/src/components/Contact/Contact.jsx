@@ -98,8 +98,8 @@ const Contact = () => {
         </div>
         <div className='text-center text-dark'>
           <img src={Phone} alt="phone Icon" className="phone-icon" />
-          <Link to="tel:+919766861473">
-            <span className="phone-text"> +91 9766861473</span>
+          <Link to="tel:+91 9766861473">
+            <span className="phone-text"> +91 7077070030</span>
           </Link>
         </div>
       </div>

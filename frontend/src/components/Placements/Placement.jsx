@@ -70,7 +70,6 @@ const Placement = () => {
       <div className='container-fluid congrats' style={{ backgroundColor: "#35C1D5" }}>
         <div className='container py-2 congratsText'>
           <h3 className='text-center my-2 congratsh3 text-white'><strong>CONGRATULATIONS FOR GETTING PLACED!</strong></h3>
-
         </div>
       </div>
 
@@ -102,32 +101,6 @@ const Placement = () => {
                   </div>
                 </div>
               </div>
-
-              {/* Second Card */}
-
-              {/* <div className="col-md-6 mb-3">
-                <div className="placementcrd card" style={{ maxWidth: 540 }}>
-                  <div className="row" >
-                    <div className="placementimgs col-md-4">
-                      <img
-                        src={Sujit}
-                        className="img-fluid rounded-start"
-                        alt="..."
-                      />
-                    </div>
-                    <div className="col-md-8">
-                      <div className="card-body">
-                        <h5 className="card-title">Sujit Shukla</h5>
-                        <p className="card-text">
-                          Name of Company - Datadynamx Pvt. Ltd.<br />
-                          Designation - Software testing
-                        </p>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
               <div className="col-md-6 mb-3">
                 <div className="placementcrd card" style={{ maxWidth: 540 }}>
                   <div className="row g-0">
@@ -283,11 +256,58 @@ const Placement = () => {
                     </div>
                     <div className="col-md-8">
                       <div className="card-body">
-                        <h5 className="card-title">Vaishnavi Jadhav</h5>
+                        <h5 className="card-title">Shital kharade</h5>
                         <p className="card-text">
-                          Name of Company - Nuage CX Consulting
-                          Pvt. Ltd.<br />
-                          Designation - Software Testing
+                          Name of Company - Capgemini<br />
+                          Designation - Full Stack Java Developer
+                        </p>
+
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 mb-3">
+                <div className="placementcrd card" style={{ maxWidth: 540 }}>
+                  <div className="row g-0">
+                    <div className="placementimgs col-md-4">
+                      <img
+                        src={Vaishnavi}
+                        className="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div className="col-md-8">
+                      <div className="card-body">
+                        <h5 className="card-title">Jignesh Kanjariya</h5>
+                        <p className="card-text">
+                          Name of Company - Sodales Labs India Pvt. Ltd.<br />
+                          Designation - Technical Trainer <br/>( SAP )
+                        </p>
+
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 mb-3">
+                <div className="placementcrd card" style={{ maxWidth: 540 }}>
+                  <div className="row g-0">
+                    <div className="placementimgs col-md-4">
+                      <img
+                        src={Vaishnavi}
+                        className="img-fluid rounded-start"
+                        alt="..."
+                      />
+                    </div>
+                    <div className="col-md-8">
+                      <div className="card-body">
+                        <h5 className="card-title">Varsha Biradar</h5>
+                        <p className="card-text">
+                          Name of Company - Smartnet Software Pvt. Ltd.<br />
+                          Designation - Jr.Fullstack Developer
                         </p>
 
                       </div>

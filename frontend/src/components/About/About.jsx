@@ -82,19 +82,19 @@ const About = () => {
       {/* section 4 */}
       <div className='container mb-5'>
         <div className='row'>
-          <h3 className='text-center py-5 abouth3'>
+          <h3 className='text-center py-4 abouth3'>
             <strong>
               HOW WE DO IT
             </strong>
           </h3>
           <div className='col-md-6'>
-            <p className='abouth4 m-5'>
+            <p className='abouth4'>
               Develop a Critical-Thinking skill with our training program. We train you on live projects, conduct hackathons, and organize
               events like Radiant's Shark Tank program.
 
             </p>
           </div>
-          <div className='col-md-6 aboutImg text-center'>
+          <div className='aboutvideo  col-md-6 text-center'>
             <iframe
               width="450"
               height="300"
@@ -104,8 +104,6 @@ const About = () => {
               allowFullScreen
             ></iframe>
           </div>
-
-
         </div>
 
         <div className='row'>

@@ -14,7 +14,11 @@
 
 .abouth3 {
     color: #025978;
+
+
 }
+
+
 
 .aboutPara {
 
@@ -41,6 +45,7 @@
     line-height: 40px;
     letter-spacing: 0em;
     text-align: left;
+    margin-bottom: 40px;
 
 }
 
@@ -90,13 +95,16 @@
     color: #f8fcf8;
     padding: 5px;
     margin-top: 5px;
-    text-decoration: none; /* Remove default link underline */
-    display: inline-block; /* Ensure inline-block for padding to work properly */
+    text-decoration: none;
+    /* Remove default link underline */
+    display: inline-block;
+    /* Ensure inline-block for padding to work properly */
 }
 
 .Iso-Btn:hover {
     background: #fff;
-    color: #025978; /* Change the text color to blue on hover */
+    color: #025978;
+    /* Change the text color to blue on hover */
 }
 
 /* .certibtn{
@@ -114,13 +122,36 @@
         margin-right: auto;
     }
 
-    .aboutImg {
+    /* .aboutImg {
         text-align: center;
         width: 100%;
         height: auto;
-    }
+    } */
 
     .abouth2 {
         text-align: center;
+    }
+}
+
+/* Regular styles for the video container */
+.aboutvideo {
+    margin: 0 auto;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+    .aboutvideo {
+        width: 100%;
+        /* Make the video container full width */
+        max-width: 100%;
+        margin-bottom: 40px;
+        /* Ensure the video doesn't overflow */
+    }
+
+    .aboutvideo iframe {
+        width: 100%;
+        /* Make the video iframe full width */
+        height: 300px;
+        /* Let the height adjust proportionally */
     }
 }

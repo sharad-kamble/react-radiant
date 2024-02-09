@@ -12,11 +12,14 @@ import Priyanka from '../../assets/images/Priyanka.png';
 import Pratiksha from '../../assets/images/Pratiksha.png';
 import Bhavikaproject from '../../assets/images/Bhavikaproject.png';
 import Sangramproject from '../../assets/images/Sangramproject.png';
+import Sangramimg from '../../assets/images/Sangramimg.png';
+import Rushikeshimg from '../../assets/images/Rushikeshimg.png';
 import StudentGroup from '../../assets/images/StudentGroup.png';
 import Rushikeshproject from '../../assets/images/Rushikeshproject.png';
 import Jobportal from '../../assets/images/Jobportal.png';
 import Surajimg from '../../assets/images/Surajimg.png';
 import Akashimg from '../../assets/images/Akashimg.png';
+import Rohitimg from '../../assets/images/Rohitimg.png';
 import Prashantimg from '../../assets/images/Prashantimg.png';
 import { Helmet } from 'react-helmet';
 
@@ -186,14 +189,14 @@ const Projects = () => {
                                         style={{ width: 100, height: 100, borderRadius: 75 }}
                                         alt="Student"
                                     />
-                                    <p className='school-txt ' >Jagruti</p>
+                                    <p className='school-txt ' style={{ fontFamily: 'serif' }} ><strong>Jagruti</strong></p>
                                     <img
                                         src={Bhavika}
                                         className="card-img-top school-img mx-auto m-2 "
                                         style={{ width: 100, height: 100, borderRadius: 75 }}
                                         alt="Student"
                                     />
-                                    <p className='school-txt text-end' style={{ marginRight: '30px' }}>Bhavika</p>
+                                    <p className='school-txt text-end' style={{ marginRight: '30px', fontFamily: 'serif' }}><strong>Bhavika</strong></p>
                                 </div>
                                 <div className="col-md-6">
                                     <img
@@ -202,7 +205,7 @@ const Projects = () => {
                                         style={{ width: 100, height: 100, borderRadius: 75 }}
                                         alt="Student"
                                     />
-                                    <p className='school-txt text-center priyanka' style={{ marginRight: '60px' }} >Priyanka</p>
+                                    <p className='school-txt text-center priyanka' style={{ marginRight: '60px', fontFamily: 'serif' }} ><strong>Priyanka</strong></p>
 
                                     <img
                                         src={Pratiksha}
@@ -210,7 +213,8 @@ const Projects = () => {
                                         style={{ width: 100, height: 100, borderRadius: 75 }}
                                         alt="Student"
                                     />
-                                    <p className='school-txt text-center  priyanka' style={{ marginRight: '60px' }}>Pratiksha</p>
+                                    <p className='school-txt text-center priyanka' style={{ marginRight: '60px', fontFamily: 'serif' }}><strong>Pratiksha</strong></p>
+
                                 </div>
                             </div>
                             <div className="text-center mt-1">
@@ -376,7 +380,7 @@ const Projects = () => {
                         >
                             {/* Student Photo */}
                             <img
-                                src={StudentGroup}
+                                src={Sangramimg}
                                 className="card-img-top mx-auto m-2"
                                 style={{ width: 150, height: 150, borderRadius: 75 }}
                                 alt="Student"
@@ -466,14 +470,14 @@ const Projects = () => {
                                         style={{ width: 100, height: 100, borderRadius: 75 }}
                                         alt="Student"
                                     />
-                                    <p className='school-txt ' >Suraj</p>
+                                    <p className='school-txt ' style={{fontFamily: 'serif'}} ><strong>Suraj</strong></p>
                                     <img
                                         src={Akashimg}
                                         className="card-img-top school-img mx-auto m-2 "
                                         style={{ width: 100, height: 100, borderRadius: 75 }}
                                         alt="Student"
                                     />
-                                    <p className='school-txt text-end' style={{ marginRight: '30px' }}>Akash</p>
+                                    <p className='school-txt text-end' style={{ marginRight: '30px',fontFamily: 'serif' }}><strong>Akash</strong></p>
                                 </div>
                                 <div className="col-md-6">
                                     <img
@@ -482,15 +486,15 @@ const Projects = () => {
                                         style={{ width: 100, height: 100, borderRadius: 75 }}
                                         alt="Student"
                                     />
-                                    <p className='school-txt text-center priyanka' style={{ marginRight: '60px' }} >Prashant</p>
+                                    <p className='school-txt text-center priyanka' style={{ marginRight: '60px', fontFamily: 'serif' }}><strong>Prashant</strong></p>
 
                                     <img
-                                        src={StudentGroup}
+                                        src={Rohitimg}
                                         className="card-img-top school-img mx-auto m-2 "
                                         style={{ width: 100, height: 100, borderRadius: 75 }}
                                         alt="Student"
-                                    />
-                                    <p className='school-txt text-center  priyanka' style={{ marginRight: '60px' }}>Name</p>
+                                    /> 
+                                    <p className='school-txt text-center  priyanka' style={{ marginRight: '60px', fontFamily: 'serif' }}><strong>Rohit</strong></p> 
                                 </div>
                             </div>
                             <p className="text-center">Full stack development</p>
@@ -557,7 +561,7 @@ const Projects = () => {
                         >
                             {/* Student Photo */}
                             <img
-                                src={StudentGroup}
+                                src={Rushikeshimg}
                                 className="card-img-top mx-auto m-2 "
                                 style={{ width: 150, height: 150, borderRadius: 75 }}
                                 alt="Student"

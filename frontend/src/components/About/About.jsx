@@ -1,11 +1,13 @@
 import React from 'react';
 import './About.css';
-import aboutUs from "../../assets/images/aboutus.png";
+import aboutUs from "../../assets/images/aboutUs.jpg";
 import Whyus from '../../assets/images/Whyus.png';
 import aboutUs6 from '../../assets/images/aboutus6.png';
 import aboutUs4 from '../../assets/images/powerbi.png';
 import aboutUs5 from '../../assets/images/salesforce.png';
 import Aboutleftimg from '../../assets/images/Aboutleftimg.png';
+import Aboutmonika from '../../assets/images/Aboutmonika.jpg';
+import Abouttopimg from '../../assets/images/Abouttopimg.jpg';
 import Iso from '../../assets/images/Iso.png';
 import Certificate from '../../assets/images/Certificate.pdf';
 import { Link } from 'react-router-dom';
@@ -35,8 +37,9 @@ const About = () => {
       {/* section 2 */}
       <div className='container mt-5'>
         <div className='row aboutimg1'>
-          <img src={aboutUs} />
+          <img src={aboutUs} style={{ borderRadius: '50px' }} />
         </div>
+
         <div className='row '>
           <h1 className='text-center my-4 abouth3'><strong>ABOUT US</strong></h1>
           <p className='text-center aboutPara'>
@@ -62,7 +65,7 @@ const About = () => {
         <div className='container '>
           <div className='row py-5'>
             <div className='col-md-6 aboutImg text-center'>
-              <img src={Whyus} alt="About Us Image" className='rounded-3 img-fluid mx-auto d-block' />
+              <img src={Whyus} alt="About Us Image" className=' img-fluid mx-auto d-block' style={{ borderRadius: '15px' }} />
             </div>
             <div className='col-md-6'>
               <h6 className='text-center abouth6' style={{ fontSize: "37px" }}>Why us?</h6>
@@ -94,28 +97,31 @@ const About = () => {
 
             </p>
           </div>
-          <div className='aboutvideo  col-md-6 text-center'>
+          <div className='aboutvideo  col-md-6 text-center' >
+
             <iframe
               width="450"
               height="300"
-              src="https://www.youtube.com/embed/ilQYl0LGQ94?autoplay=1"
+              src="https://www.youtube.com/embed/BBMl1s1M-V0?autoplay=1"
               title="YouTube Video"
               frameBorder="0"
               allowFullScreen
+              style={{ borderRadius: '15px' }}
             ></iframe>
           </div>
+
         </div>
 
         <div className='row'>
           <div className='col-md-6 aboutImg text-center'>
-            <img src={Aboutleftimg} className='img-fluid mx-auto d-block' style={{ height: "300px", width: "500px" }} />
+            <img src={Aboutleftimg} className='img-fluid mx-auto d-block' style={{ height: "300px", width: "500px", borderRadius: '15px' }} />
             {/* <h4 className='py-3'><strong>ADD IMAGE</strong></h4> */}
-            <img src={aboutUs5} className='img-fluid mx-auto mt-5 d-block' style={{ height: "300px", width: "500px" }} />
+            <img src={Aboutmonika} className='img-fluid mx-auto mt-5 d-block' style={{ height: "350px", width: "520px", borderRadius: '15px' }} />
             {/* <h4 className='py-3'><strong>ADD IMAGE</strong></h4> */}
           </div>
 
           <div className='col-md-6 aboutImg text-center'>
-            <img src={aboutUs6} className='img-fluid mx-auto mt-5 d-block' style={{ height: "600px" }} />
+            <img src={Abouttopimg} className='img-fluid mx-auto mt-5 d-block' style={{ height: "600px", borderRadius: '15px' }} />
             {/* <h4 className='py-3'><strong>ADD IMAGE</strong></h4> */}
           </div>
         </div>
@@ -179,10 +185,18 @@ const About = () => {
                 </button>
               </div>
             </div>
-            <div className='col-md-6 aboutImg text-center'>
-              <img src={Whyus} alt="About Us Image" className='img-fluid mx-auto my-5 d-block' style={{ height: "300px", width: "400px" }} />
-              {/* <h4 className='text-white'><strong>ADD VIDEO</strong></h4> */}
+            <div className='bottomvideo col-md-6 aboutImg text-center'>
+              <iframe
+                width="400"
+                height="300"
+                src="https://www.youtube.com/embed/ilQYl0LGQ94?autoplay=1"
+                frameborder="0"
+                allowfullscreen
+                className=' mx-auto my-2 d-block' 
+                style={{ borderRadius: '15px' }}
+              ></iframe>
             </div>
+
 
           </div>
 

@@ -552,8 +552,9 @@ const Datascience = () => {
                   <p className="card-text">
                     Radiant IT Services' Data Science course
                     exceeded expectations. Comprehensive
-                    curriculum, practical exercises in
-                    TensorFlow and
+                    curriculum, practical exercises in TensorFlow
+                    and sci-kit-learn, and prompt support for
+                    data visualization challenges.
                   </p>
                 </div>
               </div>

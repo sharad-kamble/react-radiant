@@ -8,6 +8,16 @@ import Saurabh from '../../assets/images/Saurabh.png';
 import Shabeed from '../../assets/images/Shabeed.png';
 import Nikita from '../../assets/images/Nikita.png';
 import Vaishnavi from '../../assets/images/Vaishnavi.png';
+import Success6 from '../../assets/images/Success6.png';
+import Varsha from '../../assets/images/Varsha.png';
+import Ajinkyasingare from '../../assets/images/Ajinkyasingare.png';
+import Shital from '../../assets/images/Shital.png';
+import Success1 from '../../assets/images/Success1.png';
+import Success2 from '../../assets/images/Success2.png';
+import Success3 from '../../assets/images/Success3.png';
+import Success4 from '../../assets/images/Success4.png';
+import Success5 from '../../assets/images/Success5.png';
+
 import { Helmet } from 'react-helmet';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
@@ -215,7 +225,7 @@ const Placement = () => {
 
                       </div>
                     </div>
-                    
+
                   </div>
                 </div>
               </div>
@@ -240,7 +250,7 @@ const Placement = () => {
 
                       </div>
                     </div>
-                    
+
                   </div>
                 </div>
               </div>
@@ -249,7 +259,7 @@ const Placement = () => {
                   <div className="row g-0">
                     <div className="placementimgs col-md-4">
                       <img
-                        src={Vaishnavi}
+                        src={Shital}
                         className="img-fluid rounded-start"
                         alt="..."
                       />
@@ -264,7 +274,7 @@ const Placement = () => {
 
                       </div>
                     </div>
-                    
+
                   </div>
                 </div>
               </div>
@@ -273,22 +283,23 @@ const Placement = () => {
                   <div className="row g-0">
                     <div className="placementimgs col-md-4">
                       <img
-                        src={Vaishnavi}
+                        src={Ajinkyasingare}
                         className="img-fluid rounded-start"
                         alt="..."
                       />
                     </div>
                     <div className="col-md-8">
                       <div className="card-body">
-                        <h5 className="card-title">Jignesh Kanjariya</h5>
+                        <h5 className="card-title">Ajinkya Singare</h5>
                         <p className="card-text">
-                          Name of Company - Sodales Labs India Pvt. Ltd.<br />
-                          Designation - Technical Trainer <br/>( SAP )
+                          Name of Company - Batterypool<br />
+                          Designation - Supply change
+                          Management
                         </p>
 
                       </div>
                     </div>
-                    
+
                   </div>
                 </div>
               </div>
@@ -297,7 +308,7 @@ const Placement = () => {
                   <div className="row g-0">
                     <div className="placementimgs col-md-4">
                       <img
-                        src={Vaishnavi}
+                        src={Varsha}
                         className="img-fluid rounded-start"
                         alt="..."
                       />
@@ -312,7 +323,7 @@ const Placement = () => {
 
                       </div>
                     </div>
-                    
+
                   </div>
                 </div>
               </div>
@@ -332,7 +343,7 @@ const Placement = () => {
 
         </div>
       </div>
-     
+
       <section className="pt-3 ">
 
         <div className="container">
@@ -350,63 +361,63 @@ const Placement = () => {
                   <div className="carousel-item active">
                     <div className="row">
                       <div className="col-md-2 col-12 mb-3">
-                        <div className="card">
+                        <div className="card rounded-5">
                           <img
                             className="card-img-top img-fluid"
                             alt="100%x280"
-                            src={Nikita}
+                            src={Success6}
                           />
                         </div>
                       </div>
                       <div className="col-md-2 col-12 mb-3">
-                        <div className="card">
+                        <div className="card rounded-5">
                           <img
-                            className="card-img-top img-fluid"
+                            className="card-img-top img-fluid "
                             alt="100%x280"
-                            src={Nikita}
+                            src={Success1}
                           />
                         </div>
                       </div>
                       <div className="col-md-2 col-12 mb-3">
-                        <div className="card">
+                        <div className="card rounded-5">
                           <img
                             className="card-img-top img-fluid"
                             alt="100%x280"
-                            src={Nikita}
+                            src={Success2}
                           />
                         </div>
                       </div>
                       <div className="col-md-2 col-12 mb-3">
-                        <div className="card">
+                        <div className="card rounded-5">
                           <img
                             className="card-img-top img-fluid"
                             alt="100%x280"
-                            src={Nikita}
+                            src={Success3}
                           />
                         </div>
                       </div>
                       <div className="col-md-2 col-12 mb-3">
-                        <div className="card">
+                        <div className="card rounded-5">
                           <img
                             className="card-img-top img-fluid"
                             alt="100%x280"
-                            src={Nikita}
+                            src={Success4}
                           />
                         </div>
                       </div>
                       <div className="col-md-2 col-12 mb-3">
-                        <div className="card">
+                        <div className="card rounded-5">
                           <img
-                            className="card-img-top img-fluid"
+                            className="card-img-top img-fluid rounded-5"
                             alt="100%x280"
-                            src={Nikita}
+                            src={Success5}
                           />
                         </div>
                       </div>
                       {/* Repeat similar changes for other cards */}
                     </div>
                   </div>
-                  <div className="carousel-item">
+                  {/* <div className="carousel-item">
                     <div className="row">
                       <div className="col-md-2 col-12 mb-3">
                         <div className="card">
@@ -463,10 +474,10 @@ const Placement = () => {
                         </div>
                       </div>
 
-                      {/* Repeat similar changes for other cards */}
+                    
                     </div>
-                  </div>
-                  <div className="carousel-item">
+                  </div> */}
+                  {/* <div className="carousel-item">
                     <div className="row">
                       <div className="col-md-2 col-12 mb-3">
                         <div className="card">
@@ -523,16 +534,16 @@ const Placement = () => {
                         </div>
                       </div>
 
-                      {/* Repeat similar changes for other cards */}
+                  
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div className="col-md-12 my-4 text-center">
+      {/* <div className="col-md-12 my-4 text-center">
         <a
           className="btnsucachivers btn btn-primary mb-3 me-1"
           href="#carouselExampleIndicators2"
@@ -549,7 +560,7 @@ const Placement = () => {
         >
           <FaArrowRight />
         </a>
-      </div>
+      </div> */}
 
       <div className="container-fluid placementdrive" style={{ marginTop: "200px" }}>
         <div className="container custom-border" >

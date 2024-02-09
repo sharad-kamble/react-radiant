@@ -20,19 +20,14 @@ const Socialbar = () => {
   return (
     <div className='header'>
       <header className="headercontainer d-flex justify-content-between p-3 container">
-        {/* Column for contact and email */}
         <div className="contact-info">
-          
           <div className='text-center text-dark mx-1' >
-          <div className='text-center text-dark'>
-          
-          </div>
             <MdPhone size={20} className="phone-icon" />
-            <span className="phone-text"> +91-7077070030 </span>
-            {/* Email Section */}
+            <span className="phone-text" style={{ marginRight: "10px" }}> +91-7077070030 </span>
             <MdEmail size={20} className=" email-icon" />
-            <a href="mailto:info@radiantitservices.in" className="email-text"> info@radiantitservices.in</a>
-          <a href="mailto:hr@radiantitservices.in" className="email-text">, hr@radiantitservices.in </a>
+            <a href="mailto:info@radiantitservices.in" className="email-text" style={{ marginRight: "10px" }}> info@radiantitservices.in</a>
+            <MdEmail size={20} className=" email-icon" />
+            <a href="mailto:hr@radiantitservices.in" className="email-text"> hr@radiantitservices.in </a>
           </div>
 
         </div>
@@ -47,7 +42,7 @@ const Socialbar = () => {
             {/* <img src={Whatsapp} style={{height:"35px"}} alt="" className="whatsapp-icon" /> */}
             <IoLogoWhatsapp size={27} className="whatsapp-icon" />
           </Link>
-
+         
           {/* Link the LinkedIn icon to the LinkedIn URL */}
           <Link to={linkedinUrl} target="_blank" rel="noopener noreferrer" className="mx-2">
             {/* <img src={Linkedin} style={{height:"35px"}} alt="" className="linkedin-icon" /> */}

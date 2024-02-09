@@ -1,7 +1,9 @@
 import React from 'react';
 import './testimonial.css';
 // import Line from "../../assets/images/Line.png";
-import student from "../../../assets/images/student.png"
+import Shital from "../../../assets/images/Shital.png"
+import Jignesh from "../../../assets/images/Jignesh.png"
+import Varshahome from "../../../assets/images/Varshahome.png"
 // import Placement from '../Placementnews/Placement';
 
 
@@ -29,7 +31,7 @@ const Testimonial = () => {
                         <div id="carouselExample" className="testimonial-carousel carousel slide" data-bs-ride="carousel">
                             <div className="carousel-inner" >
                                 <div className="testcarousel carousel-item active">
-                                    <img src={student} className="testmocaro d-block mx-auto  w-50 " style={{ borderRadius: '35px' }} alt="First slide" />
+                                    <img src={Shital} className="testmocaro d-block mx-auto  w-50 " style={{ borderRadius: '35px' }} alt="First slide" />
 
                                     <div className="testimonialscaro carousel-content carouselContent">
 
@@ -41,32 +43,34 @@ const Testimonial = () => {
                                             Thank you team Radiant.
                                         </p>
                                         <h5 className='px-4'>Shital Kharade</h5>
-                                        <p className='px-4 pb-2'>-Full Stack Java Developer</p>
+                                        <p className='px-4 pb-2'><strong>- Full Stack Java Developer</strong></p>
                                     </div>
                                 </div>
 
                                 <div className="carousel-item">
-                                    <img src={student} className="d-block mx-auto  w-50" alt="Second slide" style={{ borderRadius: '35px' }} />
+                                    <img src={Jignesh} className="d-block mx-auto  w-50" alt="Second slide" style={{ borderRadius: '35px' }} />
 
                                     <div className="carousel-content carouselContent">
-                                        <p className='px-4 pt-2'>Hi, I am Shubham Vijay. Completed my Full Stack Java
-                                            Development course from Radiant It services. I got early
-                                            calls and placed in MNC-Capgemini for 4.5LPA package.
-                                            The team and trainers are very supportive. Their soft skill
-                                            training helped me to crack the interview.
-                                            Thank you team Radiant.
+                                        <p className='px-4 pt-2'>My name is Jignesh Kanjariya, I am from Surat, Gujrat. I did SAP training from Radiant IT services in August 2022. I got placed in Sodales Solutions. In my first call I cracked the interview and got placed with 3.5LPA package. I want to say thank you to all the members of Radiant IT services.
                                         </p>
-                                        <h5 className='px-4'>Shubham Vijay</h5>
-                                        <p className='px-4 pb-2'>-Full Stack MERN Developer</p>
+                                        <h5 className='px-4'>Jignesh Kanjariya</h5>
+                                        <p className='px-4 pb-2'><strong>- Technical Trainer
+                                            ( SAP )</strong></p>
                                     </div>
                                 </div>
+                                <div className="carousel-item">
+                                    <img src={Varshahome} className="d-block mx-auto  w-50" alt="Second slide" style={{ borderRadius: '35px' }} />
 
-                                {/* 2nd image */}
+                                    <div className="carousel-content carouselContent">
+                                        <p className='px-4 pt-2'>I am Varsha Biradar, I recenlty completed Full Stack java development course from Radiant It services.
+                                            They provide technical and softskill training. I got more than 3 interview calls from them. Finally got placed in Smartnet Software pvt ltd company. Thank you all the members of Radiant It Services
+                                        </p>
+                                        <h5 className='px-4'>Varsha Biradar</h5>
+                                        <p className='px-4 pb-2'><strong>- Full Stack Java Developer</strong></p>
+                                    </div>
+                                </div>
                             </div>
-                            {/* <button className="testmoprev carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                                <span className="testmoprevicon carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span className="visually-hidden">Previous</span>
-                            </button> */}
+
                             <button className="testmonext carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
                                 <span className="testmonexticon carousel-control-next-icon" aria-hidden="true"></span>
                                 <span className="visually-hidden">Next</span>
@@ -78,34 +82,35 @@ const Testimonial = () => {
 
 
                 <div className='row mt-5 '>
-                    <h2 className='text-center placementNews mb-4'>Placement News</h2>
+                    <h2 className='text-center placementNews mb-4'>Recent Placements</h2>
                     <div className="col-md-6 mx-auto ">
                         <div id="carouselExampleDark" className="plmntCrousel carousel  carousel-dark slide" data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <div className="d-flex align-items-center justify-content-center h-100">
                                         <div className="carousel-content">
-                                            <h5 className='text-center'>Shubham Vijay</h5>
-                                            <h6>Software Engineer</h6>
-                                            <p className='text-center'>FIS</p>
+                                            <h5 className='text-center'>Akash Dilwale</h5>
+                                            <h6 className='text-center'>Web Developer</h6>
+                                            <p className='text-center'>Manlitics B2B ITES</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <div className="d-flex align-items-center justify-content-center h-100">
                                         <div className="carousel-content">
-                                            <h5 className='text-center'>Shubham Vijay</h5>
-                                            <h6>Java Fullstack Developer</h6>
-                                            <p className='text-center'>Infosys</p>
+                                            <h5 className='text-center'>Sujit Shukla</h5>
+                                            <h6 className='text-center'>Software testing</h6>
+                                            <p className='text-center'>Datadynamx Pvt. Ltd.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <div className="d-flex align-items-center justify-content-center h-100">
                                         <div className="carousel-content">
-                                            <h5 className='text-center'>Shital Kharade</h5>
-                                            <h6>Java Fullstack Developer</h6>
-                                            <p className='text-center'>Infosys</p>
+                                            <h5 className='text-center'>
+                                                Saurabh Kelkar</h5>
+                                            <h6 className='text-center'>UI Developer</h6>
+                                            <p className='text-center'>Celestial Institute of Technology</p>
                                         </div>
                                     </div>
                                 </div>
